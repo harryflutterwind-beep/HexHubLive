@@ -1,6 +1,22 @@
 {
   "entries": [
         {
+      "tab": "notice",
+      "tag": "NOTICE",
+      "tagColor": "#F06A2A",
+      "title": "&cMod Hot Fixes",
+      "date": "TODAY",
+      "bannerTitle": "NOTICE",
+      "summary": "Quick Fix/release ",
+      "action": "news",
+      "actionTitle": "Read Notice",
+      "actionSubtitle": "Maintenance details",
+      "details": [
+        "This patch/upload was to fix the positioning of some text and get rid.",
+        "of some runoff text."       
+      ]
+    },
+    {
       "tab": "news",
       "tag": "NEWS",
       "tagColor": "#97D41C",
