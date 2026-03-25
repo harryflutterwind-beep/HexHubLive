@@ -74,6 +74,54 @@
       ]
     },
     {
+      "tab": "notice",
+      "tag": "NOTICE",
+      "tagColor": "#F06A2A",
+      "title": "Planned: Useless backport",
+      "date": "2026-03-22",
+      "bannerTitle": "NOTICE",
+      "summary": "Planned backport of selected older mod features and blocks.",
+      "action": "news",
+      "actionTitle": "Planned Content",
+      "actionSubtitle": "Older mod ideas",
+      "details": [
+        "This is a planned backport of selected content from older mods.",
+        "The focus is on blocks, items, utility features, and older mechanics rather than bringing biomes over.",
+        "This notice is meant as a roadmap-style preview of older content that may return in a cleaned-up 1.7.10-friendly form."
+      ]
+    },
+        {
+      "tab": "news",
+      "tag": "NEWS",
+      "tagColor": "#97D41C",
+      "title": "Git Hub Live Readings",
+      "date": "2026-03-24",
+      "bannerTitle": "NEWS",
+      "summary": "Another GitHub Test",
+      "action": "news",
+      "actionTitle": "Open News",
+      "actionSubtitle": "Full notes",
+      "details": [
+        "This was a live edit made about 9:22 PM, so it should show up and read from the GitHub."
+      ]
+    },
+            {
+      "tab": "news",
+      "tag": "NEWS",
+      "tagColor": "#97D41C",
+      "title": "Server Update",
+      "date": "2026-03-24",
+      "bannerTitle": "NEWS",
+      "summary": "Main Chat.js tweak/hotfix",
+      "action": "news",
+      "actionTitle": "Open News",
+      "actionSubtitle": "Full notes",
+      "details": [
+        "Basically, some items in the auction would print as a pseudo black common but be pearlescent or something.",
+        "So that should be fixed persay, currently refreshing current story NPCs and planning custom story."
+      ]
+    },
+    {
       "tab": "news",
       "tag": "NEWS",
       "tagColor": "#97D41C",
@@ -144,54 +192,6 @@
       "title": "Notice: Server Info opens getting started",
       "date": "2026-03-15",
       "action": "serverinfo"
-    },
-    {
-      "tab": "notice",
-      "tag": "NOTICE",
-      "tagColor": "#F06A2A",
-      "title": "Planned: Useless backport",
-      "date": "2026-03-22",
-      "bannerTitle": "NOTICE",
-      "summary": "Planned backport of selected older mod features and blocks.",
-      "action": "news",
-      "actionTitle": "Planned Content",
-      "actionSubtitle": "Older mod ideas",
-      "details": [
-        "This is a planned backport of selected content from older mods.",
-        "The focus is on blocks, items, utility features, and older mechanics rather than bringing biomes over.",
-        "This notice is meant as a roadmap-style preview of older content that may return in a cleaned-up 1.7.10-friendly form."
-      ]
-    },
-        {
-      "tab": "news",
-      "tag": "NEWS",
-      "tagColor": "#97D41C",
-      "title": "Git Hub Live Readings",
-      "date": "2026-03-24",
-      "bannerTitle": "NEWS",
-      "summary": "Another GitHub Test",
-      "action": "news",
-      "actionTitle": "Open News",
-      "actionSubtitle": "Full notes",
-      "details": [
-        "This was a live edit made about 9:22 PM, so it should show up and read from the GitHub."
-      ]
-    },
-            {
-      "tab": "news",
-      "tag": "NEWS",
-      "tagColor": "#97D41C",
-      "title": "Server Update",
-      "date": "2026-03-24",
-      "bannerTitle": "NEWS",
-      "summary": "Main Chat.js tweak/hotfix",
-      "action": "news",
-      "actionTitle": "Open News",
-      "actionSubtitle": "Full notes",
-      "details": [
-        "Basically some items in the auction would print as a pseudo black common but be pearlescent or something",
-        "So that should be fixed persay, currently refreshing current story npcs and planing custom story."
-      ]
     }
   ]
 }
