@@ -1,5 +1,23 @@
 {
   "entries": [
+        {
+      "tab": "news",
+      "tag": "NEWS",
+      "tagColor": "#97D41C",
+      "title": "Raging Craft",
+      "date": "2026-03-25",
+      "pinned": false,
+      "priority": 100,
+      "bannerTitle": "NEWS",
+      "summary": "Npc/script update",
+      "action": "none",
+      "actionTitle": "Read",
+      "actionSubtitle": "Live update",
+      "details": [
+        "Updated rest of tournament quest/npcs",
+        "Plans for custom story are underway, will need to rework existing custom story so far."
+      ]
+    },
     {
       "tab": "news",
       "tag": "NEWS",
