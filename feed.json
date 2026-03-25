@@ -1,0 +1,22 @@
+{
+  "entries": [
+    {
+      "tab": "news",
+      "tag": "NEWS",
+      "tagColor": "#97D41C",
+      "title": "HexHub live feed online",
+      "date": "TODAY",
+      "pinned": true,
+      "priority": 100,
+      "bannerTitle": "NEWS",
+      "summary": "Remote GitHub feed is now working.",
+      "action": "none",
+      "actionTitle": "Read",
+      "actionSubtitle": "Live update",
+      "details": [
+        "This is the first live entry.",
+        "Future updates can be appended here."
+      ]
+    }
+  ]
+}
