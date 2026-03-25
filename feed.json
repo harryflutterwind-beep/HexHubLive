@@ -139,6 +139,22 @@
       "details": [
         "This was a live edit made about 9:22 PM, so it should show up and read from the GitHub."
       ]
+    },
+            {
+      "tab": "news",
+      "tag": "NEWS",
+      "tagColor": "#97D41C",
+      "title": "Server Update",
+      "date": "2026-03-24",
+      "bannerTitle": "NEWS",
+      "summary": "Main Chat.js tweak/hotfix",
+      "action": "news",
+      "actionTitle": "Open News",
+      "actionSubtitle": "Full notes",
+      "details": [
+        "Basically some items in the auction would print as a pseudo black common but be pearlescent or something",
+        "So that should be fixed persay, currently refreshing current story npcs and planing custom story."
+      ]
     }
   ]
 }
