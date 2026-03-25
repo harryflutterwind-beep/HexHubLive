@@ -122,14 +122,14 @@
       "details": [
         "This is a planned backport of selected content from older mods.",
         "The focus is on blocks, items, utility features, and older mechanics rather than bringing biomes over.",
-        "This notice is meant as a roadmap-style preview of older content that may return in a cleaned up 1.7.10-friendly form."
+        "This notice is meant as a roadmap-style preview of older content that may return in a cleaned-up 1.7.10-friendly form."
       ]
     },
         {
       "tab": "news",
       "tag": "NEWS",
       "tagColor": "#97D41C",
-      "title": "New Feature: Tabbed News / Notes",
+      "title": "Git Hub Live Readings",
       "date": "2026-03-24",
       "bannerTitle": "NEWS",
       "summary": "Another GitHub Test",
@@ -137,7 +137,7 @@
       "actionTitle": "Open News",
       "actionSubtitle": "Full notes",
       "details": [
-        "This was a live edit made about 9:22Pm so it should show up and read from the Github."
+        "This was a live edit made about 9:22 PM, so it should show up and read from the GitHub."
       ]
     }
   ]
