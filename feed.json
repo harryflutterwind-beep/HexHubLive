@@ -1,23 +1,22 @@
 {
   "entries": [
     
-       {
-      "tab": "notice",
-      "tag": "NOTICE",
-      "tagColor": "#F06A2A",
-      "title": "Mod Hot Fixes2",
+        {
+      "tab": "news",
+      "tag": "NEWS",
+      "tagColor": "#97D41C",
+      "title": "&CRaging &6Craft ",
       "date": "2026-03-26",
       "pinned": false,
-      "priority": 100,
-      "bannerTitle": "NOTICE",
-      "summary": "Fixing a renderer issue ",
-      "action": "news",
-      "actionTitle": "Read Notice",
-      "actionSubtitle": "Maintenance details",
+      "priority": 10,
+      "bannerTitle": "NEWS",
+      "summary": "Npc/script update",
+      "action": "none",
+      "actionTitle": "Read",
+      "actionSubtitle": "Live update",
       "details": [
-        "Looking to fix a renderer issue reguarding most recent update.",
-        "So I figured it out its NNotEnoughItems-2.8.81-GTNH.jar causing the explosion of formating.",
-        "&b&lIT has been fixed."
+        "Updated rest of Dragon ball story npcs.",
+    
       ]
     },
         {
