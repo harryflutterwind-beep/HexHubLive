@@ -1,5 +1,24 @@
 {
   "entries": [
+    
+       {
+      "tab": "notice",
+      "tag": "NOTICE",
+      "tagColor": "#F06A2A",
+      "title": "Mod Hot Fixes2",
+      "date": "2026-03-26",
+      "pinned": false,
+      "priority": 100,
+      "bannerTitle": "NOTICE",
+      "summary": "Fixing a renderer issue ",
+      "action": "news",
+      "actionTitle": "Read Notice",
+      "actionSubtitle": "Maintenance details",
+      "details": [
+        "Looking to fix a renderer issue reguarding most recent update.",
+        "So I figured it out its NNotEnoughItems-2.8.81-GTNH.jar causing the explosion of formating."
+      ]
+    },
         {
       "tab": "notice",
       "tag": "NOTICE",
@@ -16,24 +35,6 @@
       "details": [
         "This patch/upload was to fix the positioning of some text and get rid.",
         "of some runoff text."       
-      ]
-    },
-       {
-      "tab": "notice",
-      "tag": "NOTICE",
-      "tagColor": "#F06A2A",
-      "title": "Mod Hot Fixes2",
-      "date": "2026-03-26",
-      "pinned": false,
-      "priority": 100,
-      "bannerTitle": "NOTICE",
-      "summary": "Fixing a renderer issue ",
-      "action": "news",
-      "actionTitle": "Read Notice",
-      "actionSubtitle": "Maintenance details",
-      "details": [
-        "Looking to fix a renderer issue reguarding most recent update"
-               
       ]
     },
     {
