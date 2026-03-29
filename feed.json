@@ -1,17 +1,20 @@
 {
   "entries": [
         {
-      "tab": "news",
-      "tag": "<rbw>NEWS</rbw>",
-      "tagColor": "#97D41C",
-      "title": "<grad #55FFFF #FFFFFF #AA55FF>Renderer-ready title ✦</grad>",
-      "date": "TODAY",
-      "summary": "<wave amp=0.6 speed=4.0><grad #76F9FF #45D2FF #7A8DFF>Styled summary line</grad></wave>",
-      "details": [
-        "<grad #FFF4B0 #FFD76A #FFF8DC>Holy Rune note line</grad>",
-        "<rbw>Rainbow note line</rbw>"
-      ]
-    },
+        "tab": "news",
+        "tag": "NEWS",
+        "tagColor": "#97D41C",
+        "title": "<grad #55FFFF #FFFFFF #AA55FF>Renderer update: new styles, combos, help pages, and hub title support ✦</grad>",
+        "date": "2026-03-29",
+        "pinned": false,
+        "priority": 0,
+        "summary": "The text renderer was expanded with new wrapper styles and better combo support, while hub feed titles can now use styled renderer text.",
+        "details": [
+          "Added new wrapper styles including ChromaSplit, Afterimage, Scanline, Hologram, Posterize, Banded, Rune Reveal, and Rune alias support.",
+          "Improved combo behavior so newer wrappers work more cleanly with gradients, rainbow text, outline, shadow, glow, and other existing effects.",
+          "Expanded Hex Help with examples for the newer styles and added hub feed title support so entries can display styled titles directly in the GUI."
+        ]
+        },
         {
       "tab": "news",
       "tag": "NEWS",
@@ -19,7 +22,7 @@
       "title": "&CRaging &6Craft ",
       "date": "2026-03-26",
       "pinned": false,
-      "priority": 10,
+      "priority": 0,
       "bannerTitle": "NEWS",
       "summary": "Npc/script update",
       "action": "none",
@@ -55,7 +58,7 @@
       "title": "Raging Craft",
       "date": "2026-03-25",
       "pinned": false,
-      "priority": 10,
+      "priority": 0,
       "bannerTitle": "NEWS",
       "summary": "Npc/script update",
       "action": "none",
@@ -74,7 +77,7 @@
       "title": "HexHub live feed online",
       "date": "2026-03-24",
       "pinned": false,
-      "priority": 10,
+      "priority": 0,
       "bannerTitle": "NEWS",
       "summary": "Remote GitHub feed is now working.",
       "action": "none",
