@@ -4,11 +4,11 @@
         "tab": "news",
         "tag": "NEWS",
         "tagColor": "#97D41C",
-        "title": "<grad #55FFFF #FFFFFF #AA55FF>Renderer update: new styles, combos, help pages, and hub title support ✦</grad>",
+        "title": "Renderer update: new styles, combos, help pages, and hub title support ✦",
         "date": "2026-03-29",
         "pinned": false,
         "priority": 0,
-        "summary": "The text renderer was expanded with new wrapper styles and better combo support, while hub feed titles can now use styled renderer text.",
+        "summary": "<grad #55FFFF #FFFFFF #AA55FF>The text renderer was expanded with new wrapper styles and better combo support, while hub feed titles can now use styled renderer text.</grad>",
         "details": [
           "Added new wrapper styles including ChromaSplit, Afterimage, Scanline, Hologram, Posterize",
           "Banded, Rune Reveal, and Rune alias support.",
