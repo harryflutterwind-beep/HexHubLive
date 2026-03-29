@@ -1,6 +1,17 @@
 {
   "entries": [
-    
+        {
+      "tab": "news",
+      "tag": "<rbw>NEWS</rbw>",
+      "tagColor": "#97D41C",
+      "title": "<grad #55FFFF #FFFFFF #AA55FF>Renderer-ready title ✦</grad>",
+      "date": "TODAY",
+      "summary": "<wave amp=0.6 speed=4.0><grad #76F9FF #45D2FF #7A8DFF>Styled summary line</grad></wave>",
+      "details": [
+        "<grad #FFF4B0 #FFD76A #FFF8DC>Holy Rune note line</grad>",
+        "<rbw>Rainbow note line</rbw>"
+      ]
+    },
         {
       "tab": "news",
       "tag": "NEWS",
