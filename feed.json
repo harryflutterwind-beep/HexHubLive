@@ -10,7 +10,8 @@
         "priority": 0,
         "summary": "The text renderer was expanded with new wrapper styles and better combo support, while hub feed titles can now use styled renderer text.",
         "details": [
-          "Added new wrapper styles including ChromaSplit, Afterimage, Scanline, Hologram, Posterize, Banded, Rune Reveal, and Rune alias support.",
+          "Added new wrapper styles including ChromaSplit, Afterimage, Scanline, Hologram, Posterize",
+          "Banded, Rune Reveal, and Rune alias support.",
           "Improved combo behavior so newer wrappers work more cleanly with gradients, rainbow text, outline, shadow, glow, and other existing effects.",
           "Expanded Hex Help with examples for the newer styles and added hub feed title support so entries can display styled titles directly in the GUI."
         ]
