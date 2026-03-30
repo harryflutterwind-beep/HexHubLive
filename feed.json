@@ -13,7 +13,8 @@
           "Added new wrapper styles including ChromaSplit, Afterimage, Scanline, Hologram, Posterize",
           "Banded, Rune Reveal, and Rune alias support.",
           "Improved combo behavior so newer wrappers work more cleanly with gradients, rainbow text, outline, shadow, glow, and other existing effects.",
-          "Expanded Hex Help with examples for the newer styles and added hub feed title support so entries can display styled titles directly in the GUI."
+          "Expanded Hex Help with examples for the newer styles and added hub feed title support so entries can display styled titles directly in the GUI.",
+          "Nether portals can now be huge 64x64 max and 1x2 portal size(this means the portal itself not frame. So you would need at least 6 blocks."
         ]
         },
         {
