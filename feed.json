@@ -1,5 +1,19 @@
 {
   "entries": [
+      {
+        "tab": "activity",
+        "tag": "ACTIVITY",
+        "tagColor": "#3F9BFF",
+        "title": "Activity: Easter Event",
+        "date": "2026-03-31",
+        "bannerTitle": "ACTIVITY",
+        "summary": "Celebrate Easter with seasonal activities, festive fun, and limited-time rewards.",
+        "details": [
+          "Join in on Easter-themed activities and enjoy special holiday fun during the event.",
+          "Look out for festive bonuses, seasonal rewards, and limited-time surprises.",
+          "More details will be available in-game through the event period."
+        ]
+      },
         {
         "tab": "news",
         "tag": "NEWS",
