@@ -1,6 +1,26 @@
 {
   "entries": [
       {
+    "tab": "news",
+    "tag": "NEWS",
+    "tagColor": "#97D41C",
+    "title": "Hex Renderer / Help update",
+    "date": "2026-04-01",
+    "pinned": false,
+    "priority": 0,
+    "bannerTitle": "NEWS",
+    "summary": "Continued renderer and Hex Help tuning for outline behavior, nested style combos, and rabbit / easter styled text.",
+    "action": "none",
+    "actionTitle": "Read",
+    "actionSubtitle": "Renderer update",
+    "details": [
+      "Continued cleanup and testing for the Hex text renderer, especially around outline behavior so outline styling does not get mixed up with nested gradients or outside wrapper colors.",
+      "Worked on combo support for newer style stacks including wave, rainbow, glitch, and rabbit / easter setups, along with continued testing for bold and nested style behavior.",
+      "Refreshed Hex Help examples and spring-style entries so newer wrappers and rabbit / easter examples are easier to test directly in chat.",
+      "More renderer polish and combo tuning is still ongoing as edge cases are found."
+    ]
+        },
+      {
         "tab": "activity",
         "tag": "ACTIVITY",
         "tagColor": "#3F9BFF",
