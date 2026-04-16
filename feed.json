@@ -2,6 +2,15 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "BALANCE",
+  "tagColor": "#C38CFF",
+  "title": "<grad #C38CFF #8DB7FF #C38CFF scroll=0.18 styles=l>Combine System Update</grad>",
+  "date": "TODAY",
+  "bannerTitle": "<grad #C38CFF #8DB7FF #C38CFF scroll=0.18 styles=l>Black / Pseudo Black Combine Changes</grad>",
+  "summary": "Adjusted combine behavior for <grad #FFFFFF #E8E8E8 #D0D0D0 #E8E8E8 #FFFFFF scroll=0.14>Pseudo Black</grad> and <grad #000000 #0A0A0A #141414 #0A0A0A #000000 scroll=0.14 styles=l>Black</grad> items. <br><br>• <grad #FFFFFF #E8E8E8 #D0D0D0 #E8E8E8 #FFFFFF scroll=0.14>Pseudo Black</grad> can now wildcard-combine with any rarity once, then continues using its normal combine cap with matching rarities only.<br>• <grad #000000 #0A0A0A #141414 #0A0A0A #000000 scroll=0.14 styles=l>Black</grad> can wildcard-combine with any rarity up to 2 times overall, then continues with <grad #000000 #0A0A0A #141414 #0A0A0A #000000 scroll=0.14 styles=l>Black</grad>-only combines while still respecting the normal cap.<br>• Combine now keeps the main rarity overlay properly instead of donor rarity lines leaking onto the result.<br>• Chaos tiers now keep only the highest rank present during combine instead of stacking multiple chaos lines.<br>• Accessory type lines are now deduped, and when accessory types differ the result keeps the best base type in this order: <grad #FFD7F7 #FFB6E8 #FFD7F7 scroll=0.16>Amulet</grad> > <grad #7FDBFF #A8ECFF #7FDBFF scroll=0.16>Ring</grad> > <grad #FFD24A #FFF2A6 #FFD24A scroll=0.16>Artifact</grad>."
+},
+    {
+  "tab": "news",
   "tag": "NEWS",
   "tagColor": "#97D41C",
   "title": "Hair / Black Coffin update/ Mod structure",
