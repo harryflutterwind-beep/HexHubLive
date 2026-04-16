@@ -1,5 +1,25 @@
 {
   "entries": [
+    {
+  "tab": "news",
+  "tag": "NEWS",
+  "tagColor": "#97D41C",
+  "title": "Hair / Black Coffin update",
+  "date": "2026-04-15",
+  "pinned": false,
+  "priority": 0,
+  "bannerTitle": "NEWS",
+  "summary": "Added more hair customization work and continued Black Coffin ability tuning, including GUI fixes, preview cleanup, and casting speed polish.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Hair + ability update",
+  "details": [
+    "Continued work on the hair customization system, including GUI cleanup and picker fixes so color selection behaves more reliably without accidental extra button clicks.",
+    "More polish was added around hair preview behavior, split-color testing, and general customization flow for DBC-style hair editing.",
+    "Black Coffin received more tuning for its casting flow, with focus on making the build-up and coffin formation feel slightly faster and smoother without changing the overall feel of the move too drastically.",
+    "This update continues the ongoing push to improve both character customization and custom ability presentation as more edge cases are tested."
+        ]
+      },
       {
     "tab": "news",
     "tag": "NEWS",
