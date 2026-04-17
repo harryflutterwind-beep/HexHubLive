@@ -1,6 +1,25 @@
 {
   "entries": [
     {
+  "tab": "notice",
+  "tag": "DEV NOTICE",
+  "tagColor": "#7CFF72",
+  "title": "Hex Utility and Optimization Pass",
+  "date": "TODAY",
+  "details": [
+    "Inventory sorting was added with a smaller custom-shaped Sort button. It appears in player inventory, creative inventory, and many chest-style containers.",
+    "The sorter can merge compatible stacks while preserving NBT, rolled stats, socket data, and other custom item data.",
+    "Rarity overlays and held/equipped glints were optimized with a shared render cache to reduce repeated lore and NBT parsing.",
+    "Custom hair rendering received an FPS-focused cache and render-policy pass. Custom-form hair color support was also added as a configurable option.",
+    "The heavier custom-form overlay and renderer leak paths remain disabled by default for safety.",
+    "Black Coffin charging was tightened so locked users should no longer see the charge HUD or GUI when the skill is unavailable.",
+    "Socketing gained unsocket support. Players can remove a specific socketed gem or remove all socketed gems while preserving returned gem stats, effects, and NBT.",
+    "A dedicated Unsocketer GUI was added alongside the existing command and script API support."
+  ],
+  "actionTitle": "Inventory Sort Added",
+  "actionSubtitle": "Use the new Sort button in inventory or chest screens. Shift-click support is included."
+}
+    {
   "tab": "news",
   "tag": "BALANCE",
   "tagColor": "#FFD24A",
