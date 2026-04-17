@@ -26,7 +26,7 @@
   "title": "<grad #C38CFF #8DB7FF #C38CFF scroll=0.18 styles=l>Combine System Update</grad>",
   "date": "2026-04-16",
   "bannerTitle": "Black / Pseudo Black Combine Changes",
-  "details":[ "Adjusted combine behavior for <grad #FFFFFF #E8E8E8 #D0D0D0 #E8E8E8 #FFFFFF scroll=0.14>Pseudo Black</grad> and <grad #000000 #0A0A0A #141414 #0A0A0A #000000 scroll=0.14 styles=l>Black</grad> items.",
+  "details": [ "Adjusted combine behavior for <grad #FFFFFF #E8E8E8 #D0D0D0 #E8E8E8 #FFFFFF scroll=0.14>Pseudo Black</grad> and <grad #000000 #0A0A0A #141414 #0A0A0A #000000 scroll=0.14 styles=l>Black</grad> items.",
     "• <grad #FFFFFF #E8E8E8 #D0D0D0 #E8E8E8 #FFFFFF scroll=0.14>Pseudo Black</grad> can now wildcard-combine with any rarity once, then continues using its normal combine cap with matching rarities only.•",
     "<grad #000000 #0A0A0A #141414 #0A0A0A #000000 scroll=0.14 styles=l>Black</grad> can wildcard-combine with any rarity up to 2 times overall",
     "then continues with <grad #000000 #0A0A0A #141414 #0A0A0A #000000 scroll=0.14 styles=l>Black</grad>-only combines while still respecting the normal cap.",
