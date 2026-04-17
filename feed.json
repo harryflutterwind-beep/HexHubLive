@@ -3,9 +3,9 @@
     {
   "tab": "notice",
   "tag": "DEV NOTICE",
-  "tagColor": "#003333",
+  "tagColor": "#0000FF",
   "title": "Hex Utility and Optimization Pass",
-  "date": "TODAY",
+  "date": "2026-04-17",
   "details": [
     "Inventory sorting was added with a smaller custom-shaped Sort button. It appears in player inventory, creative inventory, and many chest-style containers.",
     "The sorter can merge compatible stacks while preserving NBT, rolled stats, socket data, and other custom item data.",
