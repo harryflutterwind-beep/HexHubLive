@@ -1,6 +1,38 @@
 {
   "entries": [
     {
+  "tab": "notice",
+  "tag": "UI TWEAK",
+  "tagColor": "#7CFF72",
+  "title": "Sort Button and Unsocketer UI Adjustments",
+  "date": "TODAY",
+  "details": [
+    "The inventory Sort button was repositioned again for better placement on the player inventory and creative inventory screens.",
+    "Chest and container Sort button placement was left alone since those screens were already in a good spot.",
+    "The Hex Unsocketer GUI received another text alignment pass to better match the new template-based texture layout.",
+    "Open, Filled, and Max text were nudged for cleaner spacing, and the Inventory label was shifted slightly lower for readability.",
+    "This pass was focused on visual cleanup only, with no changes to unsocketing logic or sorting behavior."
+  ],
+  "actionTitle": "UI Cleanup",
+  "actionSubtitle": "Small placement and text-spacing tweaks for inventory sorting and the Hex Unsocketer."
+},
+    {
+  "tab": "news",
+  "tag": "HOTFIX",
+  "tagColor": "#F06A2A",
+  "title": "<grad #F06A2A #FFB36B #F06A2A scroll=0.18 styles=l>Reroll / Rarity Cleanup</grad>",
+  "date": "2026-04-19",
+  "bannerTitle": "Reroll + Rarity Cleanup",
+  "summary": "Cleaned up reroll rarity detection and older item presentation issues.",
+  "details": [
+    "Adjusted reroll checks so items are less likely to fail when their rarity marker is not shown cleanly on the default visible lore.",
+    "Improved support for items whose rarity data or marker presentation lives on lore pages instead of only the first visible page.",
+    "This helps fix cases where evolved or older items could incorrectly say they had no valid rarity to reroll.",
+    "Continued cleanup around legacy rarity presentation issues where an old visible rarity line could still appear alongside a newer evolved rarity presentation.",
+    "Older items with messy visible rarity lines can still be refreshed with !rarity migrate if needed."
+  ]
+},
+    {
   "tab": "news",
   "tag": "DEV NEWS",
   "tagColor": "#FF66Ff",
