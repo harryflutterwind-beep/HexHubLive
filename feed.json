@@ -3,7 +3,7 @@
     {
   "tab": "notice",
   "tag": "UI TWEAK",
-  "tagColor": "#7CFF72",
+  "tagColor": "#CC0066",
   "title": "Sort Button and Unsocketer UI Adjustments",
   "date": "2026-04-19",
   "details": [
@@ -18,8 +18,8 @@
 },
     {
   "tab": "news",
-  "tag": "HOTFIX",
-  "tagColor": "#F06A2A",
+  "tag": "TWEAKS",
+  "tagColor": "#330066",
   "title": "<grad #F06A2A #FFB36B #F06A2A scroll=0.18 styles=l>Reroll / Rarity Cleanup</grad>",
   "date": "2026-04-19",
   "bannerTitle": "Reroll + Rarity Cleanup",
