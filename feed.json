@@ -1,6 +1,20 @@
 {
   "entries": [
     {
+  "tab": "news",
+  "tag": "PATCH NOTES",
+  "tagColor": "#c86bff",
+  "date": "2026-04-22",
+  "title": "HexColorText Progress Update",
+  "bannerTitle": "<shadow><grad #ff7cf7 #9d7bff #6cc6ff scroll=0.45>Fixes, Achievements, and Current Priorities</grad></shadow>",
+  "details": [
+    "Fixed the rarity overlay bug so items without real visible rarity lore no longer incorrectly show rarity frames/overlays in the slot UI.",
+    "Added orb achievements and expanded the achievement path for orb progression and collection tracking.",
+    "HexTail production is halted for now aside from keeping the current solid tail color support; broader tail work is being put on hold until later.",
+    "Grapple work is still in active testing/debugging and DBC-specific grapple damage can be added in a later pass."
+  ]
+},
+    {
   "tab": "notice",
   "tag": "UI TWEAK",
   "tagColor": "#CC0066",
