@@ -6,7 +6,7 @@
   "tagColor": "#c86bff",
   "date": "2026-04-22",
   "title": "HexColorText Progress Update",
-  "bannerTitle": "<shadow><grad #ff7cf7 #9d7bff #6cc6ff scroll=0.45>Fixes, Achievements, and Current Priorities</grad></shadow>",
+  "bannerTitle": "Fixes, Achievements, and Current Priorities",
   "details": [
     "Fixed the rarity overlay bug so items without real visible rarity lore no longer incorrectly show rarity frames/overlays in the slot UI.",
     "Added orb achievements and expanded the achievement path for orb progression and collection tracking.",
