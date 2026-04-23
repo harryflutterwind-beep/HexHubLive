@@ -2,6 +2,24 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "Fixes",
+  "tagColor": "#7CFF7C",
+  "title": "Rarity Detection & EvolveReady Fixes",
+  "date": "2026-04-23",
+  "bannerTitle": "Rarity System Update",
+  "details": [
+    "Fixed new-item EvolveReady tagging so it now uses the intended 18% chance instead of accidentally applying at a guaranteed 100% rate.",
+    "Restored auto EvolveReady eligibility to Common+ rarity items while still blocking unknown or non-rarity items from being tagged.",
+    "Improved Effervescent+ detection so it is less likely to be mistaken for regular Effervescent during rarity checks.",
+    "Fixed a JavaScript regex boundary issue that could make fallback rarity detection fail inconsistently.",
+    "Updated mod-side rarity detection so glints and overlays can read hidden rarity markers stored inside LorePages, not only visible lore.",
+    "Tightened Black rarity detection to reduce false Black glints from text such as Pseudo Black, Blackflame, or other flavor lines containing the word black."
+  ],
+  "actionTitle": "Rarity patch notes",
+  "actionSubtitle": "EvolveReady, Effervescent+, LorePages, and Black glint detection were cleaned up."
+},
+    {
+  "tab": "news",
   "tag": "PATCH NOTES",
   "tagColor": "#33FFFF",
   "date": "2026-04-22",
