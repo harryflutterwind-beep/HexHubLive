@@ -3,7 +3,7 @@
     {
   "date": "2026-04-26",
   "tab": "news",
-  "tag": "Fixes",
+  "tag": "UPDATE",
   "tagColor": "#FF9933",
   "bannerTitle": "Dragon Fist & Hex Hair Fixes",
   "title": "Dragon Fist testing expanded",
@@ -20,7 +20,7 @@
 },
     {
   "tab": "news",
-  "tag": "Fixes",
+  "tag": "FIXES",
   "tagColor": "#7CFF7C",
   "title": "Rarity Detection & EvolveReady Fixes",
   "date": "2026-04-23",
