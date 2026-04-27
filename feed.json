@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+  "date": "2026-04-26",
+  "category": "news",
+  "bannerTitle": "Dragon Fist & Hex Hair Fixes",
+  "title": "Dragon Fist testing expanded",
+  "details": [
+    "Added the first Dragon Fist command test framework, including normal, rush, loop, and blast variants.",
+    "Added a Dragon Fist cooldown shelf HUD with a mini dragon icon, using the same style as the Black Coffin cooldown display.",
+    "Dragon Fist command cooldowns now support separate cooldown timers per method, so one variant should no longer lock out every other variant.",
+    "Improved Dragon Fist command autocomplete for the available variants and aliases.",
+    "Improved the Loop Dragon Fist variant with a longer cinematic loop, stronger return dive, and more burst hits when it reconnects with the target.",
+    "Fixed the Hex Hair custom-form color leak check so normal SSJ hair can turn yellow again while addon/custom forms can still use custom hair color when enabled.",
+    "Quieted extra JRM GUI debug output now that the action menu transparency debugging is no longer needed.",
+    "Added groundwork for future Dragon Fist activation through NBT skill gates, keybinds, scripting methods, and cooldown tuning. The /dragonfist command will remain as a fallback/debug command."
+  ]
+},
+    {
   "tab": "news",
   "tag": "Fixes",
   "tagColor": "#7CFF7C",
