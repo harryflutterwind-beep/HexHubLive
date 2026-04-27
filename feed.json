@@ -1,6 +1,31 @@
 {
   "entries": [
     {
+  "tab": "news",
+  "tag": "DRAGON FIST",
+  "tagColor": "#FFB347",
+  "title": "<grad #FF7A00 #FFD36B #FFFFFF #FFD36B #FF7A00 scroll=0.18 styles=l>Dragon Fist Skill Expansion</grad>",
+  "date": "2026-04-27",
+  "bannerTitle": "Dragon Fist Skill Expansion",
+  "summary": "Dragon Fist received scripting support, active-window skill behavior, stronger cinematic variants, and early DBC ki blast visual support.",
+  "details": [
+    "Added script bridge support so CustomNPCs scripts can trigger Dragon Fist, Grapple, Black Coffin, and several orb-style effects without relying on command execution.",
+    "Dragon Fist can now be called from scripts with custom caster, target, method, base damage, and strength multiplier parameters.",
+    "Normal Dragon Fist is stable as the direct strike version and remains the clean fallback/debug style.",
+    "Rush Dragon Fist now uses an active melee window. The caster gains a visible ready effect and a small HUD indicator, then the next melee hit triggers the skill.",
+    "Rush now performs an opening strike, launches the target into a short arc, carries forward through the target, deals a barrage of hits, then vanishes.",
+    "Loop Dragon Fist now uses the same active-window style and was rebuilt into a GT-style cinematic variant: the dragon soars upward, loops through the air, dives back down, and only then begins the main damage barrage.",
+    "Loop damage and DBC Body handling were improved so scripted and NPC versions should hit DBC entities more reliably.",
+    "Dragon rendering was tuned with denser path history and more body segments for cinematic variants so the dragon appears more connected during large movements.",
+    "Blast Dragon Fist now uses an active melee trigger. The caster lunges through the target with the dragon visual, turns back, then fires a DBC/JRMCore ki blast visual.",
+    "Blast uses the DBC/JRMCore ki blast as a visual projectile shell while HexColorText keeps control of the real Dragon Fist damage through its own damage bridge.",
+    "Dragon Fist command testing remains available for normal, rush, loop, and blast while the future real skill version can later scale from Strength, Melee, skill level, and cooldown settings.",
+    "Optimization note: cinematic dragon rendering still scales by distance to help reduce unnecessary FPS cost during larger Dragon Fist visuals."
+  ],
+  "actionTitle": "Dragon Fist Testing",
+  "actionSubtitle": "Normal, Rush, Loop, and Blast variants were expanded."
+},
+    {
   "date": "2026-04-26",
   "tab": "news",
   "tag": "UPDATE",
