@@ -2,7 +2,9 @@
   "entries": [
     {
   "date": "2026-04-26",
-  "category": "news",
+  "tab": "news",
+  "tag": "Fixes",
+  "tagColor": "#FF9933",
   "bannerTitle": "Dragon Fist & Hex Hair Fixes",
   "title": "Dragon Fist testing expanded",
   "details": [
