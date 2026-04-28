@@ -1,6 +1,28 @@
 {
   "entries": [
     {
+   "tab": "news",
+  "date": "2026-04-28",
+  "title": "<#ffbcb1>Dragon Fist & Grapple Skill Pass</#>",
+  "bannerTitle": "Dragon Fist Skill Update",
+  "tags": ["Skills", "Dragon Fist", "Grapple", "Balance"],
+  "tagColor": "#FFB72E",
+  "details": [
+    "Dragon Fist now has script-activated key combos instead of a built-in mod keybind: K activates Dragon Fist, Shift + K activates Dragon Fist Rush, Ctrl + K activates Dragon Fist Loop, and Alt + K activates Dragon Fist Blast.",
+    "Dragon Fist skill checks now use PlayerPersisted.HexSkills instead of the older HitSkills example path. Each variant can be unlocked separately through NBT checks.",
+    "Dragon Fist API cooldown handling was moved mod-side so scripts cannot bypass cooldowns, Ki costs, or skill gates. Cooldowns are now enforced through the API and controller path instead of relying on player scripts.",
+    "Dragon Fist cooldowns were corrected to be per-variant instead of shared globally. Normal, Rush, Loop, and Blast now each use their own cooldown while still preventing multiple armed Rush/Loop/Blast windows from overwriting each other.",
+    "Dragon Fist now consumes heavy DBC Ki when used, making it behave more like an ultimate skill. The API path handles Ki consumption for player casts while NPC/script scaling remains flexible.",
+    "Normal Dragon Fist was reworked into a forward barrage/pass-through style attack. It now uses a narrow line hitbox so lined-up targets can be hit without turning the move into a large radial AOE.",
+    "Normal Dragon Fist carry and knockback were retuned so targets are dragged only slightly during the barrage instead of being launched too far across the map.",
+    "Rush Dragon Fist was adjusted to finish with an uppercut-style hit that launches the target upward without sending them too high.",
+    "Dragon Fist Rush and Blast now respect the enableDragonFistCommandDragonForm config option, so script activation no longer forces the player into dragon POV when the config is disabled.",
+    "Dragon Fist damage was moved back to mod-side balancing instead of script-side scaling. Base stat damage, method multipliers, and barrage hit multipliers were buffed so the skill feels stronger for high-melee builds.",
+    "The Dragon Fist player script was cleaned up with better hyperstyle-style messages, cooldown time display, per-variant titles, and invalid combo protection for mixed modifier inputs like Shift + Ctrl + K.",
+    "Grapple skill handling was also updated with HexSkills-based NBT checks, and its locked warning behavior was changed so the message is not repeatedly spammed every time a grapple keybind is pressed during the same login."
+  ]
+},
+    {
   "tab": "news",
   "tag": "DRAGON FIST",
   "tagColor": "#FFB347",
