@@ -5,8 +5,7 @@
   "date": "2026-04-28",
   "title": "<#ffbcb1>Dragon Fist & Grapple Skill Pass</#>",
   "bannerTitle": "Dragon Fist Skill Update",
-  "tags": ["Skills", "Dragon Fist", "Grapple", "Balance"],
-  "tagColor": "#FFB72E",
+  "tagColor": "#fb19ff",
   "details": [
     "Dragon Fist now has script-activated key combos instead of a built-in mod keybind: K activates Dragon Fist, Shift + K activates Dragon Fist Rush, Ctrl + K activates Dragon Fist Loop, and Alt + K activates Dragon Fist Blast.",
     "Dragon Fist skill checks now use PlayerPersisted.HexSkills instead of the older HitSkills example path. Each variant can be unlocked separately through NBT checks.",
