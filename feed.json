@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+  "tab": "news",
+  "tag": "UPDATE",
+  "tagColor": "#7FE9FF",
+  "title": "Masters and Dragon Fist Update",
+  "date": "2026-04-29",
+  "bannerTitle": "Mentor Progression Expanded",
+  "details": [
+    "Added a script-supported Master's system with selectable NPC and player mentors.",
+    "Masters now use a Xenoverse-style progression loop where friendship fills per rank, then resets after a successful rank-up test.",
+    "Overall completion is tracked separately from friendship, allowing progress to continue across all four master ranks.",
+    "Added support for quest-based and TP-based rank-up tests, including fresh quest completion checks so old completed quests cannot instantly pass tests.",
+    "Updated the Master GUI with mini progress bars, gradient friendship/completion bars, TEST READY styling, colored rank stars, and player master previews.",
+    "Improved /hexmaster command permissions so players can use basic menu/status commands while admin-only subcommands remain OP-gated.",
+    "Improved command tab completion for existing master names and online player master setup.",
+    "Updated Dragon Fist script support with backup Ki checking and draining so Dragon Fist variants properly consume Ki when the mod-side drain path misses."
+  ]
+},
+    {
    "tab": "news",
   "date": "2026-04-28",
   "title": "<#ffbcb1>Dragon Fist & Grapple Skill Pass</#>",
