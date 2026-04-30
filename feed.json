@@ -3,6 +3,30 @@
     {
   "tab": "news",
   "tag": "UPDATE",
+  "tagText": "UPDATE",
+  "tagColor": "#55D6FF",
+  "title": "Version 1.5.8 Ready for CurseForge",
+  "date": "2026-04-30",
+  "bannerTitle": "HexColorText 1.5.8 is ready",
+  "summary": "Version 1.5.8 is ready to be uploaded to CurseForge, with major Master system polish, cached portraits, API additions, combat balance tweaks, and new scripting support.",
+  "actionTitle": "Release Ready",
+  "actionSubtitle": "Final testing before upload",
+  "details": [
+    "Hex Master and Friendship system received its final polish pass for this update.",
+    "Master GUI now supports colorful friendship and completion bars, rank-colored lesson stars, TEST badges, COMPLETE stamps, and cleaner overall completion display.",
+    "Cached master portraits now stay rendered after walking away from loaded NPCs, using remembered/cached render data instead of falling back to initials during normal gameplay.",
+    "Portrait debug badges for live, remembered, dummy, and initials render states can now be hidden or shown through config.",
+    "Master API received new completion helpers for reading overall completion, completion bars, unlocked master counts, completed master counts, mastered master counts, and master ID lists.",
+    "New script support was prepared for master setup, master requirement tracking, quest/TP rank-up checks, overall completion milestone rewards, and transform blocking during special tests.",
+    "Rank-up requirements were tested with both quest checks and TP costs.",
+    "Black Coffin now has player-target damage multipliers so PvP damage can be tuned separately from NPC and mob damage.",
+    "Dragon Fist Ki costs were reduced to make the skill easier to use: Normal 12%, Rush 18%, Loop 22%, and Blast 19%.",
+    "Version 1.5.8 is now considered ready for a final build, PvP damage test, backup, and CurseForge upload."
+  ]
+},
+    {
+  "tab": "news",
+  "tag": "UPDATE",
   "tagColor": "#7FE9FF",
   "title": "Masters and Dragon Fist Update",
   "date": "2026-04-29",
