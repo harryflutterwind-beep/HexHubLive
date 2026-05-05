@@ -3,12 +3,12 @@
 {
   "date": "2026-05-05",
   "tab": "news",
-  "tag": "MASTER",
-  "tagColor": "#B66DFF",
-  "tagStyle": "wave",
-  "tagBackgroundStyle": "royal",
-  "title": "<pulse><grad #54F7FF #B66DFF #FF72D2>Master Training Update</grad></pulse>",
-  "summary": "Idle master friendship now grows over time while a master is selected."
+  "tag": "UPDATE",
+  "tagColor": "#38EAFF",
+  "tagStyle": "gradient:#FFFFFF:#54F7FF:#B66DFF:#FFFFFF",
+  "tagBackgroundStyle": "gradient:#0A8CFF:#38EAFF:#B66DFF:#FF72D2",
+  "title": "<grad #54F7FF #FFFFFF #B66DFF>Master Idle Rewards Added</grad>",
+  "summary": "Selected masters can now gain passive friendship over time."
 },
     {
   "tab": "news",
