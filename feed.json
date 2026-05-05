@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+  "date": "2026-05-05",
+  "tab": "news",
+  "tag": "UPDATE",
+  "tagColor": "#38EAFF",
+  "tagStyle": "rbw",
+  "title": "Master Idle Rewards Added",
+  "summary": "Selected masters can now gain passive friendship over time."
+},
+    {
   "tab": "news",
   "tag": "SERVER",
   "tagColor": "#4FA3FF",
