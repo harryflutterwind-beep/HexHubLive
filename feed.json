@@ -2,6 +2,26 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "FIXES",
+  "tagColor": "#7CFF7C",
+  "title": "HexHair and DBCHairPlus Hair Fixes",
+  "date": "2026-05-04",
+  "bannerTitle": "Built-in DBC Hair Support",
+  "summary": "HexHair and DBCHairPlus were updated so built-in DBC hair styles work with custom coloring, split colors, gradients, and animation support.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Hair compatibility update",
+  "details": [
+    "Added support for DBC built-in hair styles 1-12 instead of only supporting the custom/V2 hair render path.",
+    "Preserved the bald built-in hair slot so it should not be force-colored or treated as visible hair.",
+    "Applied the same built-in hair compatibility fix to DBCHairPlus so both hair systems stay aligned.",
+    "Built-in DBC hairs now support HexHair color behavior, including split colors, gradients, and animation support where applicable.",
+    "Protected Ultra Instinct and Mastered Ultra Instinct behavior so those forms should no longer be incorrectly repainted black or override their intended white hair behavior.",
+    "Kept the hair pass focused on actual hair render calls while avoiding face, eyes, mouth, tail, and other non-hair parts."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "UPDATE",
   "tagText": "UPDATE",
   "tagColor": "#8A5CFF",
