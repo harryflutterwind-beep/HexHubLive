@@ -5,7 +5,7 @@
   "tab": "news",
   "tag": "UPDATE",
   "tagColor": "#38EAFF",
-  "tagStyle": "<wave><rune><grad #FFFFFF #54F7FF #B66DFF #FFFFFF>{text}</grad></rune></wave>",
+  "tagStyle": "<rune><grad #FFFFFF #54F7FF #B66DFF #FFFFFF>{text}</grad></rune>",
   "tagBackgroundStyle": "gradient:#0A8CFF:#38EAFF:#B66DFF:#FF72D2",
   "title": "<wave><grad #54F7FF #FFFFFF #B66DFF>Master Idle Rewards Added</grad></wave>",
   "summary": "Selected masters can now gain passive friendship over time."
