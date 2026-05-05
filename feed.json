@@ -2,6 +2,27 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "SERVER",
+  "tagColor": "#4FA3FF",
+  "title": "Server Script Tab Optimization",
+  "date": "2026-05-04",
+  "bannerTitle": "Player Script Cleanup",
+  "summary": "Player scripts were reorganized to reduce tab clutter, avoid duplicate event handlers, and keep related systems grouped together.",
+  "details": [
+    "Merged Daily/Weekly and EcoBridge into one unified economy and progression script.",
+    "Added a known-command registry so valid commands from other tabs no longer trigger Daily/Weekly unknown-action warnings.",
+    "Combined AFK, Wands, and Dragon Ball wish handling into one shared script for easier maintenance.",
+    "Moved form-vanity handling into the newer Tab 2 vanity sync system to prevent duplicate vanity/desync issues.",
+    "Unified HexSkills, Dragon Fist, Grapple skill commands, and Black Coffin skill commands into one skill-management script.",
+    "Updated Dragon Fist to use N-based combos while keeping Black Coffin on its synced mod keybind.",
+    "Added safe dispatcher routing for shared hooks like chat, timer, tick, attack, keyPressed, and GUI events.",
+    "The cleanup should make the server player scripts easier to manage while preserving existing functionality."
+  ],
+  "actionTitle": "Server Maintenance Note",
+  "actionSubtitle": "Test merged tabs first, then remove old duplicate standalone tabs after confirming behavior."
+},
+    {
+  "tab": "news",
   "tag": "FIXES",
   "tagColor": "#7CFF7C",
   "title": "HexHair and DBCHairPlus Hair Fixes",
