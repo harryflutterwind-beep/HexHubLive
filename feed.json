@@ -1,5 +1,31 @@
 {
   "entries": [
+    {
+  "date": "2026-05-07",
+  "tab": "news",
+  "tag": "MASTER",
+  "tagColor": "#76FFB8",
+  "tagStyle": "rune",
+  "title": "HexMaster Stability & Admin Tools Update",
+  "bannerTitle": "HexMaster Fixes",
+  "summary": "HexMaster received several backend, GUI, and script-side fixes focused on master portraits, NPC registration, friendship display, and admin cleanup tools.",
+  "details": [
+    "Added an OP/admin delete tool inside the HexMaster GUI. Admins can hover a master card, click the red X, and confirm deletion without needing to type the exact internal master ID.",
+    "Expanded the delete tool so it appears on all visible master cards, including locked placeholders and globally registered entries.",
+    "Fixed HexMaster portrait caching issues where NPC icons could turn into question marks or require relogging after changing dimensions.",
+    "Improved portrait retention so player masters survive dimension changes more reliably, while NPC portraits can rebuild from saved snapshots or refreshed NPC interaction data.",
+    "Fixed an NPC lookup issue where a master NPC named like the player could accidentally render the player model instead of the NPC model.",
+    "Updated the God Form Quest master script so Janneftw2 (GodFormQuest) registers as an NPC master using the exact master ID, source name, and display name.",
+    "Adjusted the God Form Quest dialog unlock flow so it can detect the correct dialog path more reliably, including the Starting and Accept dialog steps.",
+    "Fixed quest friendship messages so they display the real stored friendship value after the quest reward is applied instead of trusting an API return value that could be wrong.",
+    "Cleaned up HexMaster chat formatting so gradient messages no longer break from unsupported spacing or scroll attributes in certain script contexts.",
+    "Added a Socket Opener config option so OP/admin bypass can require Creative mode, preventing OP players in Survival from accidentally bypassing normal socket limits.",
+    "Verified normal socket rules remain: accessories cap at 1 socket, armor/gear caps at 2 sockets, and weapons cap at 3 sockets unless admin bypass is active.",
+    "Fixed custom portal cleanup so breaking a frame or linked portal block can clear the connected portal instead of leaving floating portal blocks behind."
+  ],
+  "actionTitle": "Update Recommended",
+  "actionSubtitle": "Install the latest HexMaster/source patch and replace the updated GodFormQuest and quest friendship scripts."
+},
 {
   "date": "2026-05-05",
   "tab": "news",
