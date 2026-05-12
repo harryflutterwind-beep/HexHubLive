@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+  "date": "2026-05-12",
+  "tab": "news",
+  "tag": "MASTER",
+  "tagColor": "#B66DFF",
+  "tagStyle": "gradient:#FFFFFF:#54F7FF:#B66DFF:#FFFFFF",
+  "tagBackgroundStyle": "gradient:#24104A:#5B2CFF:#38EAFF",
+  "title": "HexMaster Current Master Fix",
+  "summary": "Master progression now correctly recognizes when the player is already training with the same exact mentor.",
+  "details": [
+    "Added API-side current master checks so scripts can safely tell whether the selected master is the same mentor, a different mentor, or empty.",
+    "Fixed Janneftw2 (GodFormQuest) progression being blocked while the player was already training with Janneftw2 (GodFormQuest).",
+    "Current master comparisons now use canonical IDs instead of raw display names, preventing false mismatches from normalized IDs.",
+    "Exact mentor matching is preserved: Janneftw2 and Janneftw2 (GodFormQuest) are treated as separate masters.",
+    "Added script fallback checks so older API builds still avoid loose contains/indexOf matching.",
+    "Players should no longer need to deselect their current master just to continue rank-up or dialog progression with the same mentor."
+  ]
+},
+    {
   "date": "2026-05-07",
   "tab": "news",
   "tag": "MASTER",
