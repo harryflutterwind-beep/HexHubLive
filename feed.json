@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+  "date": "2026-05-13",
+  "tab": "HexMaster",
+  "tag": "God Form / SSJ4",
+  "tagColor": "#D49A26",
+  "tagStyle": "gradient:#FFE08A:#76FFB8:#63F7FF:#B66DFF",
+  "tagBackgroundStyle": "gradient:#3A2100:#174C3A:#123C66:#2B184A",
+  "title": "God Form Rank-Up Setup + SSJ4 Fur Color",
+  "bannerTitle": "God Form Master Training Update",
+  "summary": "Finished the first God Form rank-up setup, cleaned up HexMaster command/API behavior, and added SSJ4 fur color support across the server and mod side.",
+  "details": [
+    "Finished the first God Form rank-up flow setup for Janneftw2 (GodFormQuest), including rank-up-ready dialog handling, repeat-safe quest completion checks, and persistent post-rank interaction behavior.",
+    "Updated HexMaster command/API behavior to reduce duplicate master registrations and make friendship / rank progress commands easier to target correctly.",
+    "Cleaned up master identity handling so exact IDs like Janneftw2 (GodFormQuest) and Whis(Instructor) behave more consistently instead of creating extra duplicate cards.",
+    "Added SSJ4 fur color support with a separate configurable color path so SSJ4 fur can be tinted independently from normal HexHair color passes.",
+    "Expanded SSJ4 fur handling across both server-side sync/data behavior and mod-side rendering support, including animation-aware color behavior."
+  ]
+},
+    {
   "date": "2026-05-12",
   "tab": "news",
   "tag": "SERVER",
