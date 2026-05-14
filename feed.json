@@ -1,8 +1,6 @@
 {
   "entries": [
-    {
-  "entries": [
-    {
+    {    
       "date": "2026-05-14",
       "tab": "Updates",
       "tag": "server",
@@ -18,9 +16,7 @@
       ],
       "actionTitle": "Revamp Status",
       "actionSubtitle": "God Form update is 25% complete"
-    }
-  ]
-},
+     },
     {
   "date": "2026-05-13",
   "tab": "news",
