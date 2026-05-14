@@ -1,6 +1,27 @@
 {
   "entries": [
     {
+  "entries": [
+    {
+      "date": "2026-05-14",
+      "tab": "Updates",
+      "tag": "server",
+      "tagColor": "#55FFFF",
+      "tagStyle": "pulse",
+      "tagBackgroundStyle": "dark",
+      "title": "God Form Revamp Progress",
+      "summary": "The God Form revamp is now 25% finished.",
+      "details": [
+        "The first major phase of the God Form revamp is underway.",
+        "Current progress is around 25%, with early systems, dialogue flow, and mentor/rank-up structure being worked into place.",
+        "More updates will follow as additional God Form training, progression, rewards, and polish are completed."
+      ],
+      "actionTitle": "Revamp Status",
+      "actionSubtitle": "God Form update is 25% complete"
+    }
+  ]
+},
+    {
   "date": "2026-05-13",
   "tab": "news",
   "tag": "God Form / SSJ4",
