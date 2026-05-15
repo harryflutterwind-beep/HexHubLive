@@ -1,5 +1,18 @@
 {
   "entries": [
+    {
+      "date": "2026-05-15",
+      "tab": "God Form",
+      "tag": "Progress",
+      "tagColor": "#76FFB8",
+      "tagStyle": "pulse",
+      "tagBackgroundStyle": "shadow",
+      "title": "God Form Masters polish update",
+      "summary": "Janne and Dahke now use the improved portrait refresh flow, and Dahke sparring setup is now in progress.",
+      "details": "Updated Janneftw2 (GodFormQuest) and Dahke(Godform) with the Whis-style portrait refresh method. Their master portraits now refresh on first unlock and repeat accepted interactions, helping cross-dimension master cards keep saved portraits instead of falling back to initials.\n\nDahke sparring support is also being set up. The spawner flow is currently in progress and will follow the newer master/rank-aware structure used for God Form training.",
+      "actionTitle": "Master System Update",
+      "actionSubtitle": "Janne/Dahke portrait cache fixes + Dahke sparring setup progress"
+    },
     {    
       "date": "2026-05-14",
       "tab": "Updates",
