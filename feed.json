@@ -21,7 +21,8 @@
     "Improved CustomNPC compatibility for dialog bodies, dialog options, and GUI label text using the HexText renderer bridge.",
     "Confirmed that amp macros like &xblackgBlackflame Thread&/xblackg can work in CustomNPC dialog choices after the macro bridge fixes.",
     "Added broader macro support so future renderer-registered macros can be repaired more reliably when CustomNPC converts amp codes.",
-    "Important syntax reminder: use <grad #ff3c00 #ffb000>Text</grad>, not the old <grad=#ff3c00:#ffb000>Text</grad> format."
+    "Important syntax reminder: use <grad #ff3c00 #ffb000>Text</grad>, not the old <grad=#ff3c00:#ffb000>Text</grad> format.",
+    "Added more macro/shortcut styles to have more variety."
   ]
 },
     {
