@@ -1,6 +1,30 @@
 {
   "entries": [
     {
+  "tab": "news",
+  "tag": "HEXTEXT",
+  "tagColor": "#55FFFF",
+  "tagStyle": "pulse",
+  "tagBackgroundStyle": "royal",
+  "title": "HexText CustomNPC Support Improved",
+  "date": "2026-05-19",
+  "pinned": true,
+  "priority": 20,
+  "bannerTitle": "HEXTEXT",
+  "summary": "CustomNPC dialog text, options, macros, and wrapped HyperText messages now behave much more cleanly.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Renderer update",
+  "details": [
+    "Improved HexText wrapping for long chat messages, rank-up messages, quest-complete text, and friendship progress output.",
+    "Fixed nested style wrapping so combinations like shadow, pulse, gradient, wave, and macro presets carry across wrapped lines more safely.",
+    "Improved CustomNPC compatibility for dialog bodies, dialog options, and GUI label text using the HexText renderer bridge.",
+    "Confirmed that amp macros like &xblackgBlackflame Thread&/xblackg can work in CustomNPC dialog choices after the macro bridge fixes.",
+    "Added broader macro support so future renderer-registered macros can be repaired more reliably when CustomNPC converts amp codes.",
+    "Important syntax reminder: use <grad #ff3c00 #ffb000>Text</grad>, not the old <grad=#ff3c00:#ffb000>Text</grad> format."
+  ]
+},
+    {
       "date": "2026-05-15",
       "tab": "God Form",
       "tag": "<pulse amp=0.10 speed=0.70><grad #76FFB8 #63F7FF #A98BFF scroll=0.25>Progress</grad></pulse>",
