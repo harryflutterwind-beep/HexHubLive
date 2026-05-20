@@ -1,6 +1,26 @@
 {
   "entries": [
-
+        {
+  "date": "2026-05-20",
+  "tab": "news",
+  "tag": "Stable",
+  "tagColor": "#63F7FF",
+  "tagStyle": "sparkle",
+  "tagBackgroundStyle": "glow",
+  "title": "HyperText Chat Wrapping Stabilized",
+  "bannerTitle": "HyperText Chat Wrapping Stabilized",
+  "summary": "The HyperText chat and CustomNPC wrapping work is now mostly stabilized, including the raw chat overflow fix and better styled-line carry across wrapped text.",
+  "action": "news",
+  "actionTitle": "Renderer Stability Update",
+  "actionSubtitle": "Raw chat no longer stack-overflows, and long styled messages now preserve gradients, pulse, wave, rainbow, and scroll effects much more reliably.",
+  "details": [
+    "Fixed the raw chat StackOverflow issue caused by the older wrapping path.",
+    "Improved wrapped HyperText rendering so styled blocks survive across multiple visual lines.",
+    "Pink wave text, pulse gradients, rainbow lines, and scrolling gradients now render correctly after wrapping.",
+    "Added safer handling for split or fragmented tags so raw tag pieces are much less likely to appear in chat.",
+    "Large styled messages now work best when normal spaces are placed between major styled sections."
+  ]
+},
     {
   "tab": "news",
   "tag": "<pulse amp=0.10 speed=0.70><grad #FFE27A #FF9F3D #FF4FD8 scroll=0.25>Fix</grad></pulse>",
@@ -9,7 +29,6 @@
   "tagBackgroundStyle": "shadow",
   "title": "NEI Tooltip Marker Fixed",
   "date": "2026-05-19",
-  "pinned": true,
   "bannerTitle": "NEI Tooltip Marker Fixed",
   "summary": "Fixed the hidden NEI tooltip marker that caused styled HexText item names to show a tiny smushed tail.",
   "action": "none",
@@ -31,8 +50,7 @@
   "tagStyle": "pulse",
   "tagBackgroundStyle": "royal",
   "title": "HexText CustomNPC Support Improved",
-  "date": "2026-05-19",
-  "pinned": true,
+  "date": "2026-05-19",  
   "bannerTitle": "HEXTEXT",
   "summary": "CustomNPC dialog text, options, macros, and wrapped HyperText messages now behave much more cleanly.",
   "action": "none",
