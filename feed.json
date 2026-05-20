@@ -20,7 +20,7 @@
     "Added safer handling for split or fragmented tags so raw tag pieces are much less likely to appear in chat.",
     "Large styled messages now work best when normal spaces are placed between major styled sections."
   ]
-}
+},
     {
   "tab": "news",
   "tag": "<pulse amp=0.10 speed=0.70><grad #FFE27A #FF9F3D #FF4FD8 scroll=0.25>Fix</grad></pulse>",
