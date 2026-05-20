@@ -2,6 +2,30 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "<pulse amp=0.10 speed=0.70><grad #FFE27A #FF9F3D #FF4FD8 scroll=0.25>Fix</grad></pulse>",
+  "tagColor": "#55FFFF",
+  "tagStyle": "pulse",
+  "tagBackgroundStyle": "shadow",
+  "title": "NEI Tooltip Marker Fixed",
+  "date": "2026-05-19",
+  "pinned": true,
+  "priority": 25,
+  "bannerTitle": "NEI Tooltip Marker Fixed",
+  "summary": "Fixed the hidden NEI tooltip marker that caused styled HexText item names to show a tiny smushed tail.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Tooltip fix",
+  "details": [
+    "Fixed the long-standing smushed tail artifact on styled item tooltip names.",
+    "The issue was caused by NEI / CodeChicken adding a hidden §h tooltip marker to the first tooltip line.",
+    "HexText item names were rendering that hidden marker as a tiny visible tail at the end of the name.",
+    "The renderer now strips the hidden §h marker safely without breaking stack counts.",
+    "Trailing §r cleanup is still useful for lang entries, but §h was the real cause of the NEI hover tooltip artifact.",
+    "Result: styled item names, orb names, and hover tooltips now render cleanly with no extra smushed character at the end."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "HEXTEXT",
   "tagColor": "#55FFFF",
   "tagStyle": "pulse",
