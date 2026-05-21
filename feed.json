@@ -1,6 +1,30 @@
 {
   "entries": [
-
+    {
+      "date": "2026-05-20",
+      "tab": "news",
+      "tag": "Useless",
+      "tagColor": "#63F7FF",
+      "tagStyle": "sparkle",
+      "tagBackgroundStyle": "glow",
+      "title": "Useless Legacy Cleanup",
+      "bannerTitle": "Useless Legacy Cleanup",
+      "summary": "Legacy Useless blocks and items received a major cleanup pass with better textures, restored behavior, a dedicated creative tab, and a renderer fix.",
+      "action": "none",
+      "actionTitle": "Legacy Useless Port",
+      "actionSubtitle": "Texture, behavior, tab, and renderer cleanup",
+      "details": [
+        "Added a new Legacy Useless creative tab for the old Useless port items.",
+        "Moved the legacy Useless blocks and items out of Hex Items to reduce clutter.",
+        "Cleaned duplicate legacy entries while keeping old registered blocks safe for existing worlds.",
+        "Fixed pink, magenta, gray, black-white, grape, and several wood/log texture mappings.",
+        "Restored gray and black-white block behavior, including burnable, axe-mineable, craftable, drop, and pass-through behavior where intended.",
+        "Glow Ice, Packed Glow Ice, and Glow Glass were adjusted closer to their intended transparent glowing look.",
+        "Cursed Diamond Block Food is edible again, uses a 3D-style block item render, and has a toned-down Speed effect.",
+        "Restored the Damage Indicators-safe HexFontRenderer hybrid fix after the block cleanup drifted from the working renderer class.",
+        "Brightened the Hex Items creative tab gradient so it reads better on the inventory background."
+      ]
+    },
         {
   "date": "2026-05-20",
   "tab": "news",
