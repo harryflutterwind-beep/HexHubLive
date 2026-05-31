@@ -1,5 +1,25 @@
 {
   "entries": [
+    {
+  "tab": "notice",
+  "tag": "FIX",
+  "tagColor": "#A98BFF",
+  "tagStyle": "rune",
+  "tagBackgroundStyle": "gradient:#050510 #241044 #4B1D8F #FF4FD8 #63F7FF",
+  "title": "HexHub FPS + Style Rendering Fixed",
+  "date": "2026-05-31",
+  "bannerTitle": "HEX HUB FIX",
+  "summary": "<pulse><rbw>HexHub performance was stabilized while restoring styled JSON entries, animated tag pills, and the Nyan strip.</rbw></pulse>",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Hub performance fix",
+  "details": [
+    "<rune><grad #63F7FF #A98BFF #FF4FD8 #FFE27A>HexHub FPS drops were fixed by keeping the lighter render path for plain text and routing styled JSON text back through HexFontRenderer.</grad></rune>",
+    "<pulse><grad #76FFB8 #FFFFFF #63F7FF>The boring flat tag look was corrected, so tagStyle and tagBackgroundStyle entries can show properly again.</grad></pulse>",
+    "<grad #FFE27A #FF9B2F #FF4FD8>The Nyan strip remains unchanged, and the item-info/socket icon cache fix is still included.</grad>",
+    "<rbw>Result: smoother HexHub performance without losing the flashy styled feed look.</rbw>"
+  ]
+},
 {
   "tab": "notice",
   "tag": "Update",
