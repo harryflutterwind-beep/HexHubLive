@@ -1,6 +1,26 @@
 {
   "entries": [
     {
+  "tab": "notice",
+  "tag": "WEAPON DEV",
+  "tagColor": "#7A5CFF",
+  "tagStyle": "royal",
+  "tagBackgroundStyle": "gradient:#070A16 #1A0A33 #5A18B9 #0B1028",
+  "title": "Cursed Blade: texture + blocking follow-up",
+  "date": "2026-05-30",
+  "bannerTitle": "WEAPON DEV",
+  "summary": "The new large sword model is in-game, but the blade texture is not rendering correctly and blocking stutters currently instead of feeling like a real block.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Mod weapon polish",
+  "details": [
+    "Current status: the oversized sword model is visible in-game and the overall shape is close, but the blade is rendering mostly dark/flat because the intended texture or UV path is not being applied correctly.",
+    "Next texture pass should verify the actual texture file path, model UV references, item renderer binding, and whether the blade is using the correct modular texture layer.",
+    "Blocking also needs a code pass: the new sword should be checked for EnumAction.block, use duration, right-click handling, and any custom renderer animation that may be interrupting the vanilla block pose.",
+    "After that, tune the first-person and third-person hold transforms so the sword feels heavy without clipping or jittering."
+  ]
+},
+    {
       "date": "2026-05-20",
       "tab": "news",
       "tag": "New update Useless",
