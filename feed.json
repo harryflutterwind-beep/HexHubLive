@@ -1,23 +1,37 @@
 {
   "entries": [
-    {
+{
   "tab": "notice",
-  "tag": "WEAPON DEV",
-  "tagColor": "#7A5CFF",
+  "tag": "Update,
+  "tagColor": "#FF4FDB",
   "tagStyle": "royal",
-  "tagBackgroundStyle": "gradient:#070A16 #1A0A33 #5A18B9 #0B1028",
-  "title": "Cursed Blade: texture + blocking follow-up",
+  "tagBackgroundStyle": "gradient:#070A16 #18051F #3A073F #B018A8 #FF4FDB #FF8A1A #0B1028",
+  "title": "Weapon Dev: Phoenix stable, Rose Scythe sweep work, and blade model cleanup",
   "date": "2026-05-30",
   "bannerTitle": "WEAPON DEV",
-  "summary": "The new large sword model is in-game, but the blade texture is not rendering correctly and blocking stutters currently instead of feeling like a real block.",
+  "summary": "Phoenix Nodachi is in a much better in-hand state, the Hyper Energy Scythe has progressed into a staged rose/magenta weapon with sweep/AoE experiments, and the oversized purple-orange blade line is being rebuilt with cleaner Blockbench/dev-asset workflow. Current focus is now model polish, item registration, and keeping heavy Blockbench files out of the runtime jar.",
   "action": "none",
   "actionTitle": "Read",
   "actionSubtitle": "Mod weapon polish",
   "details": [
-    "Current status: the oversized sword model is visible in-game and the overall shape is close, but the blade is rendering mostly dark/flat because the intended texture or UV path is not being applied correctly.",
-    "Next texture pass should verify the actual texture file path, model UV references, item renderer binding, and whether the blade is using the correct modular texture layer.",
-    "Blocking also needs a code pass: the new sword should be checked for EnumAction.block, use duration, right-click handling, and any custom renderer animation that may be interrupting the vanilla block pose.",
-    "After that, tune the first-person and third-person hold transforms so the sword feels heavy without clipping or jittering."
+    "Cursed Blade status: the current in-game version is acceptable for now. Deep Cursed Blade work can stay paused while newer weapon work focuses on Phoenix Nodachi, Hyper Energy Scythe, and the purple-orange Cosmic Ember Blade direction.",
+    "Phoenix Nodachi status: the weapon reached a much better in-hand state after placement, icon, guard, connection, and cutting-edge direction fixes. Future Phoenix work should be small positioning or texture polish instead of full rewrites.",
+    "Phoenix placement lesson: Dragon Block C katana-style rendering helped confirm that the handle and blade need a clean shared local axis, with the handle passing through the hand pivot rather than floating from the shoulder or hilt root.",
+    "Hyper Energy Scythe status: the scythe line moved into a 4-stage rose/magenta evolution concept. Stage-based damage, visual scale, sweep cooldown, AoE range, AoE damage, and double-slash chance were tested.",
+    "Scythe sweep work: the sweep effect evolved from small rose particles into a larger custom rose/flat crescent slash. Several placement passes tested 1.9-style sweep, Getsuga-like flat crescent behavior, crosshair anchoring, and stage-based cooldowns.",
+    "Scythe combat tuning: the current staged sweep test uses different cooldowns and AoE values per stage, with a small double-slash chance. The final stage remains intended to be the strongest form and should keep the highest damage identity.",
+    "Scythe visual note: the inventory sprites remain the strongest scythe asset and should be preserved as the target identity: dark purple-black metal, rose/magenta energy, glowing head core, crystal shards, and crescent energy blade.",
+    "Scythe model status: held-model work is still not final. The rough prism/sprite/Blockbench attempts helped test direction, but the final scythe still needs a proper model pass that matches the strong inventory sprite silhouette.",
+    "DBC Fn key idea: future custom weapon skills can piggyback DBC's existing Fn key as a modifier. For example, if the custom skill key is B, the real trigger can become DBC Fn + B, while still letting DBC own its normal key handling.",
+    "Cosmic Ember Blade direction: a new oversized purple-orange blade concept was explored as a zanpakuto-like great blade with dark cosmic purple body, ember-orange cutting edge, wrapped handle, and winged/angelic guard details.",
+    "Cosmic Ember Blade model status: multiple Blockbench test files were created, but the current issue is that the hilt still reads too much like a starburst instead of real wings, and the blade tip needs to be centered and cleaned up.",
+    "Winged hilt target: the guard should read as angel wings, with feather-like stepped voxel layers sweeping outward and slightly upward/downward. It should not look like a generic star, cross, or spike cluster.",
+    "Blade tip target: the tip needs to be centered on the blade axis and taper naturally into the silhouette, instead of looking like an offset cap or stacked block cluster.",
+    "Blockbench workflow update: .bbmodel files, model references, and experimental model sources should live under dev_assets/blockbench instead of src/main/resources so they stay editable without being packed into the runtime jar.",
+    "Jar-size cleanup: moving Blockbench models out of runtime resources is the correct approach. Only actual in-game textures, lang files, sounds, and runtime assets should remain under src/main/resources.",
+    "Current source organization: a runtime-clean source zip was made with model files moved out of src/main/resources, plus a dev-assets pack containing Blockbench files for editing outside the built mod jar.",
+    "Important item note: adding .bbmodel files or dev assets does not automatically add new weapons to the mod. If the new weapons do not show in HexColorText, the next source task is item registration, creative tab entries, icon paths, names, and renderer hookup.",
+    "Future model patch rule: continue using the latest uploaded source as baseline, keep Java 6 compatibility, avoid wildcard imports, and do not bundle runtime-only mod jars or dev-only Blockbench files into the final mod jar."
   ]
 },
     {
