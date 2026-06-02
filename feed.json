@@ -2,6 +2,31 @@
   "entries": [
     {
   "tab": "notice",
+  "tag": "VISUAL DEV",
+  "tagColor": "#A98BFF",
+  "tagStyle": "royal",
+  "tagBackgroundStyle": "gradient:#050711 #10051F #27125C #6A35FF #A98BFF #0B1028",
+  "title": "Visual Dev: Haki slash fixes, Black Coffin / Dragon Fist refresh, HUD polish, and new gem rolls",
+  "date": "2026-06-01",
+  "bannerTitle": "VISUAL DEV",
+  "summary": "The 1.21.11 asset refresh pass has been folded into the current mod source with Black Coffin visuals, Dragon Fist effects, cooldown HUD upgrades, new animated gems, and several Haki slash fixes. The latest pass also fixes the slash/blocking jitter and makes slash waves follow the player's look pitch instead of staying mostly flat.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Mod visual and item polish",
+  "details": [
+    "Black Coffin received a visual refresh using sculk-style charge, soul, forcefield, shriek, flash, and discharge-style overlays. The goal was to make the move feel darker and more modern without changing its core damage behavior.",
+    "Dragon Fist received new visual additions using sonic-boom rings, gust trails, small-gust overlays, flash bursts, and impact-style explosion overlays. This makes the rush and hit moments read stronger in combat.",
+    "Cooldown HUDs were refreshed with modern boss-bar style textures for Black Coffin, Dragon Fist, and Haki Slash / Reaping Wave. These are lightweight HUD textures and should not bring back the old sign/shop FPS problem.",
+    "The correct dev_assets folder was updated with the new Black Coffin, Dragon Fist, HUD, and gem textures so the dev environment can render the new visuals correctly.",
+    "New animated gems were added to the mod and included in the gem/orb drop pool. Their tooltip preview was updated to show the new random stat roll behavior.",
+    "New gem stat rolls now use random DBC .Multi stats with values from -5% up to +15%. Rolls can include one stat, multiple stats, or rarely all five main stats. Effects are still left for a future design pass.",
+    "Haki slash waves were updated to follow the player's full look direction using yaw and pitch, so slashes can now travel upward, downward, or diagonally based on where the player is aiming.",
+    "The Haki slash blocking jitter was fixed by removing the forced swing call from the slash fire path and adding a small release buffer / cooldown message throttle. Blocking should no longer spaz out when the slash key logic is involved.",
+    "Earlier Haki slash compile issues were cleaned up too, including the misplaced @Override in EntityHakiSlashWave and missing helper-method calls in WeaponHakiSlashController."
+  ]
+},
+    {
+  "tab": "notice",
   "tag": "FIX",
   "tagColor": "#A98BFF",
   "tagStyle": "rune",
