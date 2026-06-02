@@ -2,6 +2,28 @@
   "entries": [
     {
   "tab": "notice",
+  "tag": "GUI FIX",
+  "tagColor": "#63F7FF",
+  "tagStyle": "royal",
+  "tagBackgroundStyle": "gradient:#050711 #06172A #123A63 #2E8CFF #63F7FF #0B1028",
+  "title": "GUI Fix: DBC screens now safer with HyperText present",
+  "date": "2026-06-01",
+  "bannerTitle": "GUI FIX",
+  "summary": "A safety pass was added for DBC/JRMCore GUI screens so HyperText already present in chat, overlays, item names, or tooltips should no longer explode the extended inventory or other JinRyuu screens.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "DBC GUI stability",
+  "details": [
+    "DBC/JRMCore GUI screens now use a safer HexFontRenderer path instead of letting animated HyperText effects run directly through JinRyuu layout and trim-width math.",
+    "HyperText already visible in chat or HUD overlays should continue rendering normally while DBC screens are open.",
+    "Actual DBC/JRMCore GUI text is sanitized by stripping custom HyperText tags and animated effects while preserving normal vanilla formatting codes like §a, §l, and §r.",
+    "This should prevent extended inventory and related DBC GUI screens from exploding when styled item names, tooltips, chat messages, or overlays are present.",
+    "No dev_assets update was needed for this fix because it was code-only.",
+    "Vanity-to-armor support was reviewed: the safer future path is to create armor-wrapper versions of vanity items in our mod instead of directly mutating DBC/JRMCore vanity items."
+  ]
+},
+    {
+  "tab": "notice",
   "tag": "VISUAL DEV",
   "tagColor": "#A98BFF",
   "tagStyle": "royal",
