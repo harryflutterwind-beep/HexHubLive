@@ -1,6 +1,30 @@
 {
   "entries": [
     {
+  "tab": "news",
+  "tag": "Hit Skills script update/fix",
+  "tagColor": "#A98BFF",
+  "tagStyle": "sparkle",
+  "tagBackgroundStyle": "gradient:#050711 #12051F #2B115C #6A35FF #A98BFF #63F7FF #0B1028",
+  "title": "Hit Skill Script Cleanup: Counters, Time Stop, and Knockback Fixes",
+  "date": "2026-06-02",
+  "bannerTitle": "SKILL FIX",
+  "summary": "The Hit-style moveset script received another cleanup pass focused on counter behavior, Time Stop escape handling, safer cooldown display logic, and more reliable knockback after frozen-time damage resolves.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Moveset script stability pass",
+  "details": [
+    "Cleaned up several script bugs from the large Hit moveset file, including duplicate logic, mismatched helper names, unsafe timer references, and places where old debug or fallback paths could conflict with newer skill behavior.",
+    "Flash Fist Crush was adjusted so the normal Lv1–5 counter path properly reflects damage back onto the attacker instead of only arming visuals or failing to credit the reflected hit.",
+    "Tremor Pulse Lv1–5 was adjusted so its normal counter path also reflects the attacker correctly while keeping Over Heaven / Lv6 behavior separate as the healing-style variant.",
+    "Counter moves now include knockback on successful reflected hits, making Flash Fist Crush and Tremor Pulse feel more like real counterattacks instead of only delayed damage pops.",
+    "Time Stop escape handling was reviewed so escaped players can break free, bank damage against the caster during the escape window, and then refreeze correctly if time has not fully resumed.",
+    "Time Stop end handling was improved so stored frozen-time damage, escape-window damage, overlays, countdowns, and cleanup paths resolve more safely when time resumes.",
+    "Frozen-time knockback was made more reliable after final stored damage is applied, including cases where the stored damage is high enough to nearly kill or fully defeat the target.",
+    "The cooldown HUD behavior was left mostly intact because the cooldown timer setup was already intentionally structured that way."
+  ]
+},
+    {
   "tab": "notice",
   "tag": "ITEM UPDATE",
   "tagColor": "#FFD966",
