@@ -2,6 +2,32 @@
   "entries": [
     {
   "tab": "notice",
+  "tag": "ITEM UPDATE",
+  "tagColor": "#FFD966",
+  "tagStyle": "pulse",
+  "tagBackgroundStyle": "gradient:#080611 #261A05 #6B4200 #D98A00 #FFD966 #0B1028",
+  "title": "Legacy Items, Totem, Slash Cooldowns, and Texture Fixes",
+  "date": "2026-06-02",
+  "bannerTitle": "ITEM UPDATE",
+  "summary": "A new legacy item cleanup pass restored missing food textures, fixed the Piss Bucket visuals, added the Totem of Undying, separated normal Slash and Multi Slash cooldowns, increased slash range, and cleaned up several orb and food behavior issues.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Legacy item and combat polish",
+  "details": [
+    "Missing legacy item textures were re-imported from the old cursed source so the broken magenta-black placeholder icons should now display correctly.",
+    "The Piss Bucket now uses its proper legacy bucket texture and keeps the custom yellow piss-fluid still/flowing textures instead of looking like a normal water bucket.",
+    "The Totem of Undying was added as a HexColor Text item and moved into the main HexColor Text creative tab instead of the Legacy Useless tab.",
+    "The Totem of Undying can cancel one fatal hit, consume itself, restore health, clear harmful potion effects, and attempt to restore DBC Body.",
+    "Normal Slash and Multi Slash now use separate cooldowns, so the regular slash and Sneak + Right Click multi-combo no longer lock each other out.",
+    "Slash range was increased for both normal Slash and Multi Slash so the visual waves have a better chance to connect with targets.",
+    "Multi Slash HUD labeling was separated from the regular slash label, showing Multi Slash or Multi Reaping when the combo skill is on cooldown.",
+    "Dorite Taco Cool Ranch duration was increased to 2 minutes so the food effect lasts long enough to feel useful without returning to old overpowered legacy values.",
+    "The Heart item is now an instant right-click consume item instead of behaving like a normal slow-eating food.",
+    "Orb effect rolls that land exactly on 100% now display as 100% instead of being shifted down or shown incorrectly."
+  ]
+},
+    {
+  "tab": "notice",
   "tag": "GUI FIX",
   "tagColor": "#63F7FF",
   "tagStyle": "royal",
