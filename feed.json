@@ -1,6 +1,27 @@
 {
   "entries": [
     {
+  "tab": "notice",
+  "tag": "BALANCE FIX",
+  "tagColor": "#76FFB8",
+  "tagStyle": "pulse",
+  "tagBackgroundStyle": "gradient:#2E8CFF #63F7FF #76FFB8 #FFD966 #FF8A1A #FF4FDB #A98BFF",
+  "title": "Next-Gen Orb Balance, DBC Body Regen, and Totem Death Bypass Fix",
+  "date": "2026-06-03",
+  "bannerTitle": "ORB + TOTEM FIX",
+  "summary": "Next-gen orb cooldown reduction was brought down with new per-orb caps, pulsed DBC Body regeneration was added, and the Totem of Undying now uses a stronger JRMCore revive-bypass flow so it can save players before Otherworld death handling takes over.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Orb balance and revive safety",
+  "details": [
+    "Next-gen orb cooldown reduction was reduced again and now clamps to safer per-orb caps instead of letting old or high rolls keep oversized cooldown values.",
+    "Dream Gem keeps the highest cooldown-reduction identity at up to 64%, Crystalline Ocean Gem now caps at 45%, and the rest of the next-gen orb family is capped at 60% or lower.",
+    "Next-gen orbs gained a pulsed DBC Body regeneration effect. Instead of constantly healing every tick, the effect briefly restores Body, stops, waits a few seconds, then starts another small regen pulse.",
+    "The Totem of Undying now catches lethal damage earlier and forces a stronger JRMCore alive-state guard so it can prevent DBC/JRMCore death handling from immediately sending the player to Otherworld after the totem is consumed.",
+    "The totem revive path now refreshes vanilla health, restores DBC Body above zero, clears dangerous effects, resets death/damaged flags, and keeps the player alive for a short guard window after activation."
+  ]
+},
+    {
   "tab": "news",
   "tag": "HAKI PASS Update",
   "tagColor": "#A98BFF",
