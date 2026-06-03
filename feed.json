@@ -2,6 +2,31 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "HAKI PASS Update",
+  "tagColor": "#A98BFF",
+  "tagStyle": "sparkle",
+  "tagBackgroundStyle": "gradient:#2B115C #6A35FF #A98BFF #63F7FF #FFD966 #FF4FDB #6A35FF",
+  "title": "Haki Weapon Texture Pass: Vanilla, DBC, CustomNPC+, Chocolate Quest, Plugin, and More",
+  "date": "2026-06-03",
+  "bannerTitle": "HAKI WEAPON PASS",
+  "summary": "The Haki weapon coating system was expanded across vanilla and several major mod weapon sets, including CustomNPC+, Dragon Block C, Chocolate Quest, MrCrayfish Furniture, and ThePlugin. Static and animated weapon textures now have Armament, Hardening, Ryuo, and Conqueror variants where supported.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Modded weapon Haki textures",
+  "details": [
+    "Vanilla item Haki rendering was fixed first: active Haki now uses stitched item-atlas icons for inventory, first-person, and third-person views instead of reverting to vanilla textures or white-square fallback renders when Slash or Multi Slash fires.",
+    "CustomNPC+ received Haki textures for the confirmed melee weapon set, including swords, broadswords, scythes, daggers, spears, tridents, halberds, glaives, battle axes, maces, warhammers, claws, katanas, rapiers, sabers, kukris, and other generic attack weapons.",
+    "Dragon Block C received a normal item-icon Haki pass for its sword, axe, spear, club, hammer, blade, and handle items, plus an extended model-texture pass for special rendered weapons like Katana, Brave Sword, Z Sword, Dimension Sword, Evil Spear, and Power Pole.",
+    "Chocolate Quest received Haki textures for real ItemCQBlade-style melee weapons, including swords, big swords, daggers, spears, hook sword, and the Bull battle axe, while guns, staves, shields, armor, and utility items were skipped to avoid accidental coating.",
+    "The mixed utility-mod scan only found one true generic-attack weapon target: the MrCrayfish Furniture knife. It now has all four Haki texture modes while non-weapon blocks, tools, render libraries, and chest upgrades were left untouched.",
+    "ThePlugin received the largest Haki expansion: hundreds of registered melee/generic-attack Plugin weapons were added to the Haki texture bank, including preserved .mcmeta animation files for animated weapon textures.",
+    "Each supported weapon family now has four Haki modes: Armament, Hardening, Ryuo, and Conqueror. These modes are intended to match the existing weapon Haki state rather than replacing item behavior.",
+    "The Haki renderer keeps using the stitched-atlas path and mod-aware held transforms so coated weapons should keep their normal inventory, first-person, and third-person presentation while active.",
+    "Ranged weapons, spell items, shields, armor, vanity items, render-only entity weapons, and utility tools were intentionally skipped unless they were confirmed as true melee or generic-attack items."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "Hit Skills script update/fix",
   "tagColor": "#A98BFF",
   "tagStyle": "sparkle",
