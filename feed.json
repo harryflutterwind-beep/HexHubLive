@@ -2,6 +2,31 @@
   "entries": [
     {
   "tab": "notice",
+  "tag": "ORB DEV",
+  "tagColor": "#9B6CFF",
+  "tagStyle": "rune",
+  "tagBackgroundStyle": "gradient:#06030E #14051F #2B0A45 #5E21B8 #9B6CFF #1B082A",
+  "title": "Orb Effects, Modern Particles, Slash Scaling, and Server Fixes",
+  "date": "2026-06-03",
+  "bannerTitle": "ORB DEV",
+  "summary": "The latest HexColorText passes expanded modern particle support, improved Void Relic effects, lowered cooldown reduction caps for stacking balance, fixed several HUD/icon issues, and improved server-side slash activation for custom weapons.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Orb and combat polish",
+  "details": [
+    "<rune><grad #B994FF #63F7FF #FFFFFF #9B6CFF scroll=0.18>Modern particle support was expanded with a full particle catalog, JSON frame mapping, aliases, presets, and script APIs for effects like dragon_breath, sculk_charge, sonic_boom, totem_of_undying, sweep_attack, and more.</grad></rune>",
+    "<rune><grad #7A35FF #B994FF #63F7FF #FFFFFF scroll=0.20>Void Rend now uses modern and classic particle layers, applies a chance-based DoT, and can trigger upgraded Void-style visuals through Void Relic effects.</grad></rune>",
+    "<rune><grad #3A0A66 #7A35FF #D6B3FF #FFFFFF scroll=0.16>Void Relic gained rare Void Explosion support, using modern particles and multiple explosion hits where higher hit counts reduce individual hit damage.</grad></rune>",
+    "<rune><grad #63F7FF #9B6CFF #FFFFFF #76FFB8 scroll=0.18>Perfect Core and Fractured threshold messages were cleaned up so they trigger on threshold changes instead of every Body increment or decrement, now showing actual Body or HP values with brighter HyperText styling.</grad></rune>",
+    "<rune><grad #FFE27A #FFFFFF #76FFB8 #63F7FF scroll=0.20>Cooldown reduction caps were reduced again for stacking balance: Crystalline Ocean and most next-gen gems now cap much lower, while Dream Gem remains higher but still nerfed.</grad></rune>",
+    "<rune><grad #FFFFFF #9B6CFF #63F7FF #FFFFFF scroll=0.17>Haki Slash, Multi Slash, and Reaping Wave now scale from a DBC stat formula focused mostly on Dexterity, with Strength and WillPower contributing as secondary stats.</grad></rune>",
+    "<rune><grad #B994FF #FFFFFF #63F7FF #9B6CFF scroll=0.18>The slash input handler now supports raw right-click hold as a fallback, helping custom weapons that qualify for slash effects but do not properly enter vanilla blocking state on servers.</grad></rune>",
+    "<rune><grad #76FFB8 #FFFFFF #B994FF #63F7FF scroll=0.16>HexMaster GUI packet initialization was improved for dedicated servers, addressing cases where /hexmaster said it was opening the GUI but nothing appeared.</grad></rune>",
+    "<rune><grad #FFD966 #FFFFFF #76FFB8 #63F7FF scroll=0.18>Sign FPS rendering now keeps targeted signs vanilla by default, making SignShop setup safer while preserving cached sign rendering for large sign walls.</grad></rune>"
+  ]
+},
+    {
+  "tab": "notice",
   "tag": "BALANCE FIX",
   "tagColor": "#76FFB8",
   "tagStyle": "pulse",
