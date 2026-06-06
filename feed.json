@@ -2,6 +2,34 @@
   "entries": [
     {
   "tab": "notice",
+  "tag": "DREAM ORB effects",
+  "tagColor": "#B46BFF",
+  "tagStyle": "dream",
+  "tagBackgroundStyle": "gradient:#070A16 #12071F #2B1550 #65F7FF #B46BFF #FFE27A #0B1028",
+  "title": "Dream Gem Effects Complete + Legacy Totem DBC Fix",
+  "date": "2026-06-06",
+  "bannerTitle": "DREAMSCAPE RESONANCE",
+  "summary": "The Dream Gem/Orb effect chain has been completed with seven passive effects, animated Dream HUD support, Reverie status-style icons, Nightmare Bloom visuals, and a DBC-safe Legacy Totem fix that prevents false activations from low vanilla health.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Dream Gem and Totem polish",
+  "details": [
+    "Finished the full Dream Gem/Orb passive effect set: Dream Echo, Lucid Recovery, Dream Slip, False Awakening, Dream Fracture, Reverie Chain, and Nightmare Bloom.",
+    "Dream Echo can repeat a hit shortly after impact with a weaker dream echo strike and improved glow, enchant, portal, shimmer, and afterimage-style particles.",
+    "Lucid Recovery now checks DBC Body thresholds, restores Body/Ki/Stamina during its recovery window, uses a cooldown, and hides or resumes its HUD properly when the Dream source is swapped.",
+    "Dream Slip now catches damage through safer DBC-aware attack/hurt handling, reduces incoming damage, plays UI dodge-style feedback, and uses dream shimmer particles.",
+    "False Awakening adds a weaker dream-themed near-death save with a long cooldown, small recovery, brief protection, and modern dream/totem-style particles.",
+    "Dream Fracture now applies a soft utility debuff that makes targets deal less damage and take more damage, using the same all-damage-path handling proven by the Fracture Brew test item.",
+    "Reverie Chain adds a short lucid rhythm window where the next hit can trigger a random bonus such as cooldown refund, Ki refund, Stamina refund, Body refund, bonus hit, or haze mark.",
+    "Reverie Chain received custom status-style icons and now renders its active bonus near the JRM/DBC status-effect icon area instead of only using the Dream cooldown shelf.",
+    "Nightmare Bloom now plants a dream seed that swirls through and around the target, loops back several times, then blooms into a small dream explosion with soft weaken effects and a Body refund for the Dream holder.",
+    "Dream HUD support was expanded with animated dream bars, Dream Gem icon usage, source-aware clearing/resuming, and cooldown rows for the completed passive chain.",
+    "Fixed the Legacy Totem DBC interaction so it no longer pops every hit just because vanilla health is low while DBC Body is still alive.",
+    "For DBC players, Legacy Totem activation is now gated around true lethal danger instead of vanilla-health-only damage checks."
+  ]
+},
+    {
+  "tab": "notice",
   "tag": "ORB DEV",
   "tagColor": "#9B6CFF",
   "tagStyle": "rune",
