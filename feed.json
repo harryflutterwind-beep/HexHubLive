@@ -2,6 +2,28 @@
   "entries": [
     {
   "tab": "notice",
+  "tag": "TEXT FIX",
+  "tagColor": "#66F5FF",
+  "tagStyle": "pulse",
+  "tagBackgroundStyle": "gradient:#071018 #082A33 #0E6170 #20D7E8 #66F5FF #111827",
+  "title": "HyperText Prefix/Suffix Width and CustomNPC Wrapping Fix",
+  "date": "2026-06-06",
+  "bannerTitle": "TEXT FIX",
+  "summary": "A new HexFontRenderer pass fixed the long-running prefix and suffix smushing issue caused by HyperText display names, while also restoring the CustomNPC HyperText text-area and wrapping support.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "HyperText name and GUI polish",
+  "details": [
+    "Fixed the player prefix/suffix spacing issue where Essentials/GroupManager display names could look crushed or overlapped when HyperText was rendered through the custom HexFontRenderer.",
+    "Updated HexFontRenderer width handling so HyperText names measure closer to how they actually render, especially with bold styled text and colored prefixes or suffixes.",
+    "Improved display-name compatibility for EssentialsChat-style formats such as '<{DISPLAYNAME}> {MESSAGE}', allowing HyperText inside the name without breaking chat spacing.",
+    "Restored the CustomNPC HyperText pass for dialog text, text areas, and wrapping behavior so longer custom text no longer wraps incorrectly in NPC GUI screens.",
+    "Removed the fragile inner TextAreaState dependency from the CustomNPC HyperText hook path, preventing the previous missing-class crash when opening CustomNPC dialog management screens.",
+    "Bundled the CustomNPC wrapping/text-area fix and the prefix/suffix width fix together as a source patch so the text rendering chain is safer and more consistent."
+  ]
+},
+    {
+  "tab": "notice",
   "tag": "DREAM ORB effects",
   "tagColor": "#B46BFF",
   "tagStyle": "dream",
