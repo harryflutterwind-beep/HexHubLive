@@ -2,6 +2,28 @@
   "entries": [
     {
   "tab": "notice",
+  "tag": "ORB UPDATE",
+  "tagColor": "#63F7FF",
+  "tagStyle": "pulse",
+  "tagBackgroundStyle": "gradient:#060015 #180033 #3B168A #7A5CFF #63F7FF #FFFFFF #0B1028",
+  "title": "Astral Prism skip chain, Star Tornado field, and rare 100% orb rolls",
+  "date": "2026-06-10",
+  "bannerTitle": "ORB UPDATE",
+  "summary": "Astral Prism's dodge package was expanded so Orbit Step can perform a true multi-skip counter, Star Tornado now lingers as a pulling damage-over-time particle tornado, and ordinary percent orb rolls gained a tiny chance to land an exact 100% stat line.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Astral combat and orb roll polish",
+  "details": [
+    "Astral Orbit Step now starts a delayed multi-skip sequence instead of only doing an instant single reposition: the player blinks around the attacker up to 6 times with short gaps between skips, then finishes with a counter strike and astral particle burst.",
+    "Fixed the Astral defensive proc order so a failed Starforce roll no longer blocks Orbit Step from trying on the same incoming hit, making the multi-skip move much easier to actually see in combat.",
+    "Astral Star Tornado now creates an active tornado field for several seconds instead of only doing one instant AoE burst.",
+    "Enemies inside Star Tornado are pulled inward, spun around the funnel, lightly lifted, and damaged over time while the particle tornado remains active.",
+    "Star Tornado visuals now keep ticking while active, using astral purple/cyan spark, glow, witch-magic, and falling star-style particles before ending in a burst.",
+    "All ordinary percent orb stat rolls now have a tiny jackpot chance to roll an exact 100% line. Existing socket handling preserves 100 as a true 100% value instead of collapsing it to 1%."
+  ]
+},
+    {
+  "tab": "notice",
   "tag": "TEXT FIX",
   "tagColor": "#66F5FF",
   "tagStyle": "pulse",
