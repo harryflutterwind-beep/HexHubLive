@@ -3,6 +3,28 @@
     {
   "tab": "notice",
   "tag": "ORB UPDATE",
+  "tagColor": "#B84DFF",
+  "tagStyle": "pulse",
+  "tagBackgroundStyle": "gradient:#070611 #160522 #35105A #6B2DFF #B84DFF #63F7FF #0B1028",
+  "title": "Perfect Core proc HUD, transparent bars, and orb VFX refresh",
+  "date": "2026-06-10",
+  "bannerTitle": "ORB UPDATE",
+  "summary": "Perfect Core now displays its own gem icon when it borrows other orb proc effects, the proc HUD bars were made more transparent with fewer hard border lines, fire target visuals were softened, and older vanilla-heavy orb particle effects received modern particle accents.",
+  "action": "none",
+  "actionTitle": "Read",
+  "actionSubtitle": "Perfect Core and orb visual polish",
+  "details": [
+    "Perfect Core proc HUD: borrowed Void, Abyss, Dream, Ocean, Glitch, and Astral effects now prefer the Perfect Core gem icon on the HUD when Perfect Core is the equipped source.",
+    "Perfect Core proc list expanded: the shared passive checks now allow Perfect Core to run the current Dreamscape, Crystalline Ocean, Glitch Prism, Abyss, Astral, Void, Fractured-style low-body, Fire Punch, and Perfect Core native effects from one socketed source.",
+    "Void proc tuning: original Void family passive proc rates were lowered slightly so Gravity Well, Entropy, and Abyss Mark do not trigger as aggressively during normal combat.",
+    "HUD polish: shared orb cooldown bars and Dream/Astral proc shelf bars now use a glassier transparent look with much softer outlines, highlights, and scan-line accents.",
+    "Fire visual polish: target burn no longer forces the opaque vanilla fire overlay by default; target impact and DoT particles now lean on the same translucent flame/ember opacity used by the first-person fire-hand visuals.",
+    "Particle refresh: older vanilla-heavy orb visuals in the shared controller gained modern glow, sculk, spark, and soft accent particles while keeping vanilla fallback particles for 1.7.10 readability."
+  ]
+},
+    {
+  "tab": "notice",
+  "tag": "ORB UPDATE",
   "tagColor": "#63F7FF",
   "tagStyle": "pulse",
   "tagBackgroundStyle": "gradient:#060015 #180033 #3B168A #7A5CFF #63F7FF #FFFFFF #0B1028",
