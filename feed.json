@@ -2,7 +2,7 @@
   "entries": [
     {
   "tab": "notice",
-  "tag": "COMBAT UPDATE",
+  "tag": "Skill update",
   "tagColor": "#FFD21F",
   "tagStyle": "royal",
   "tagBackgroundStyle": "gradient:#080611 #241605 #6B3300 #D22A16 #FFD21F #0B1028",
@@ -11,7 +11,7 @@
   "bannerTitle": "COMBAT UPDATE",
   "summary": "Dragon Rising now remains active for a much longer multi-hit sequence, scales its duration and hit count through the different Haki types, and keeps targets suspended until the final up-smash launch. Skill hit-count debug messages are now disabled by default, while axes and battle axes gained yellow cleave effects with special hybrid colors when Haki is active.",
   "action": "none",
-  "actionTitle": "Read",
+  "actionTitle": "New-Skills",
   "actionSubtitle": "Dragon Rising and axe combat pass",
   "details": [
     "Dragon Rising now deals damage throughout nearly the entire visible particle animation instead of ending its damage sequence while the effect is still active.",
