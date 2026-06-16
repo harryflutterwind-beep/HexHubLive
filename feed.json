@@ -1,5 +1,30 @@
 {
   "entries": [
+    {
+  "entries": [
+    {
+      "tab": "notice",
+      "tag": "ASURA UPDATE",
+      "tagColor": "#C697FF",
+      "tagStyle": "pulse",
+      "tagBackgroundStyle": "gradient:#090611 #1A1025 #39205A #7137A3 #C697FF #2B0C18",
+      "title": "Asura Transformation Polish and Transformed Sword Techniques",
+      "date": "2026-06-16",
+      "bannerTitle": "ASURA UPDATE",
+      "summary": "Asura now has dedicated activation and exhaustion transitions, synchronized spectral Haki coatings, and transformed versions of Tiger Hunt, Dragon Rising, Lion's Requiem, and Six Paths Severance.",
+      "action": "none",
+      "actionTitle": "Read",
+      "actionSubtitle": "Nine-Sword Style combat expansion",
+      "details": [
+        "Asura now forms through a short activation sequence, ends through a controlled exhaustion transition, and never runs its activation and cooldown states at the same time.",
+        "Spectral weapon copies visually inherit the held weapon's Armament, Ryuo, or Conqueror coating while retaining one authoritative real weapon and damage source.",
+        "Tiger Hunt becomes Nine-Claw Hunt, Dragon Rising becomes Asura Dragon Rising, Six Paths becomes the nine-strike Nine Paths Severance, and Lion's Requiem becomes Demonic Lion's Requiem while Asura is active.",
+        "Transformed techniques reuse their normal unlocks, ranks, cooldowns, EXP, and anti-farming rules. Silver Mist now uses 2nd Fn + Left Alt + middle mouse during Asura so Nine-Claw Hunt keeps the normal Tiger Hunt input."
+      ]
+    }
+  ]
+}
+,
         {
       "tab": "notice",
       "tag": "COMBAT UPDATE",
