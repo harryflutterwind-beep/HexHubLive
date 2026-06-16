@@ -1,5 +1,25 @@
 {
   "entries": [
+        {
+      "tab": "notice",
+      "tag": "COMBAT UPDATE",
+      "tagColor": "#72B8FF",
+      "tagStyle": "pulse",
+      "tagBackgroundStyle": "gradient:#090C15 #111A2A #27466D #4E8CC7 #72B8FF #21162E",
+      "title": "Orb Fall Guard, Multi-Target Mastery EXP, and Skill Controls",
+      "date": "2026-06-16",
+      "bannerTitle": "COMBAT UPDATE",
+      "summary": "Damage-triggered orb effects no longer activate from fall events, multi-target sword techniques now reward each valid enemy, and the Haki GUI includes a complete controls reference for every current skill.",
+      "action": "none",
+      "actionTitle": "Read",
+      "actionSubtitle": "Haki progression and combat usability",
+      "details": [
+        "Fall and DBC/JRMCore landing notifications are excluded from damage-triggered orb passives, dodges, barriers, shard gains, and defensive proc cooldowns.",
+        "Sword techniques can now award technique, Sword Style, and active-Haki EXP for as many as 12 unique valid targets in one cast while retaining repeat-target anti-farming protection.",
+        "Vanilla mobs, CustomNPCs, DBC/NPCDBC entities, Ninjin entities, strong enemies, and bosses continue to use combat-strength scaling for hit and kill rewards.",
+        "The Haki progression GUI now has a Controls tab with the live 2nd Fn binding and input combinations for Sword Slash, Multi Slash, Phoenix Rend, Dragon Rising, Tiger Hunt, Lion's Requiem, Six Paths, Billion-Fold World, Asura, Silver Mist, and Dead Man's Game."
+      ]
+    },
     {
   "tab": "notice",
   "tag": "Skill update",
