@@ -3,6 +3,27 @@
         {
       "tab": "news",
       "tag": "HAKI",
+      "tagColor": "#n889E8",
+      "title": "Dragon Twister vortex & HUD polish",
+      "date": "2026-06-17",
+      "pinned": true,
+      "priority": 81,
+      "bannerTitle": "DRAGON TWISTER UPDATE",
+      "summary": "Dragon Twister now has a stronger vortex identity, a dedicated HUD icon, refreshed variant naming, and the quick mastery popup should better reflect real Haki progress.",
+      "action": "none",
+      "actionTitle": "Sword technique update",
+      "actionSubtitle": "Dragon Twister / Haki GUI",
+      "details": [
+        "The quick Haki EXP popup now reads live mastery values so its progress bars and bank text stay closer to the full GUI instead of underselling track progress.",
+        "Dragon Twister was reworked toward a forward cyclone lane so it feels more like a real traveling vortex instead of a flatter slash-like hit shape.",
+        "Targets caught in Dragon Twister are pulled into the lane, spun, carried forward, and launched more clearly, with stronger pressure in Ryuo, Conqueror, and Asura states.",
+        "Variant naming was refreshed around the requested fantasy: Dragon Twister, Great Dragon Twister, Great Dragon Twister: Ryuo, Black Rope Great Dragon Twister, and Asura: Black Rope Nine-Headed Dragon Twister.",
+        "Dragon Twister now has its own cooldown/GUI icon instead of borrowing Dragon Rising's icon, and the technique tooltip text was updated to describe the vortex-focused behavior."
+      ]
+    },
+        {
+      "tab": "news",
+      "tag": "HAKI",
       "tagColor": "#B889E8",
       "title": "Haki & Asura combat expansion",
       "date": "2026-06-17",
