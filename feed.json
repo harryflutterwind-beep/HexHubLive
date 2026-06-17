@@ -2,6 +2,25 @@
   "entries": [
         {
       "tab": "news",
+      "tag": "HAKI update",
+      "tagColor": "#B889E8",
+      "title": "Dragon Twister anchor & EXP HUD correction",
+      "date": "2026-06-17",
+      "bannerTitle": "DRAGON TWISTER VORTEX PASS",
+      "summary": "Haki and sword bars now use their own earned EXP, while Dragon Twister forms where the opening slash connects and pulls nearby targets into its persistent AoE.",
+      "action": "none",
+      "actionTitle": "Combat and progression update",
+      "actionSubtitle": "Dragon Twister / Haki EXP",
+      "details": [
+        "Visible Haki, Sword Style, technique, and quick-popup bars now use the local track or skill EXP value instead of displaying an Auto 0/max value after purchased progression.",
+        "Shared Sword EXP remains a separate purchase pool and no longer visually fills every Haki track bar.",
+        "Dragon Twister now anchors its persistent tornado at the nearest entity struck by the opening slash; casts that miss use a closer fallback endpoint instead of the maximum range.",
+        "The tornado has a larger outer pull ring that drags nearby entities into the damaging AoE core over repeated pulses.",
+        "Conqueror and Asura Dragon Twister variants add a black-rope particle dragon coiling inside the tornado, including red eyes, lightning accents, a snout, and horns."
+      ]
+    },
+        {
+      "tab": "news",
       "tag": "HAKI",
       "tagColor": "#B889E8",
       "title": "Haki HUD restoration & Dragon Twister field",
