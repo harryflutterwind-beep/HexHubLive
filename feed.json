@@ -1,9 +1,31 @@
 {
   "entries": [
+        {
+      "tab": "news",
+      "tag": "HAKI",
+      "tagColor": "#B889E8",
+      "title": "Haki & Asura combat expansion",
+      "date": "2026-06-17",
+      "pinned": true,
+      "priority": 80,
+      "bannerTitle": "HAKI / ASURA ROADMAP",
+      "summary": "Native DBC Ki efficiency, rank-based Asura upkeep, transformed sword arts, cleaner controls, responsive HUD/GUI work, and the new Dragon Twister technique are now part of the current Haki combat line.",
+      "action": "none",
+      "actionTitle": "Combat update",
+      "actionSubtitle": "Haki, Asura, and Sword Style",
+      "details": [
+        "Ki Fist and Ki Protection now use their own native DBC combat paths. Each level grants 7.5% directional Ki-cost reduction, with JRMCore levels clamped to 0-10 and a 75% maximum reduction at level 10.",
+        "Asura now has rank-based duration, Ki drain, and reactivation cooldown. Perfected Asura has no fixed duration and remains active only while the player's Ki pool can sustain its recurring drain.",
+        "Asura transforms the regular sword arsenal: Three-Realm Sever, Ninefold Calamity, Hellfire Phoenix Funeral, Nine-Claw Hunt, Dragon Crown Rising, Demonic Lion's Requiem, Nine Paths Severance, and Nine Worlds Collapse.",
+        "The Haki progression and Controls screens now fit long technique names more safely at smaller GUI scales, and the shared cooldown shelf shows transformed Asura names without cutting them off.",
+        "Final original-Asura inputs: Silver Mist uses Caps Lock + 2nd Fn + Left Alt + held Right Mouse; Dead Man's Game uses Caps Lock + Left Alt + held Right Mouse; Billion-Fold World keeps Sneak + 2nd Fn + Left Alt + Right Mouse.",
+        "New Sword Style technique: Dragon Twister. Hold Caps Lock + Right Mouse and release after READY. Base wind, Armament, Ryuo, Conqueror, and Asura versions have distinct radius, pull, launch, hit-count, color, and impact behavior.",
+        "While Asura is active, Dragon Twister becomes Asura: Nine-Headed Dragon Twister, expanding into nine linked cyclone strikes with a larger execution field and stronger final launch.",
+        "Optional CustomNPC+ player animations are included for Silver Mist, Dead Man's Game, Dragon Twister, and its Nine-Headed Asura transformation. The bridge is reflection-only, so combat still works if CustomNPC+ animation playback is unavailable."
+      ]
+    },
     {
-  "entries": [
-    {
-      "tab": "notice",
+       "tab": "notice",
       "tag": "ASURA UPDATE",
       "tagColor": "#C697FF",
       "tagStyle": "pulse",
@@ -21,10 +43,7 @@
         "Tiger Hunt becomes Nine-Claw Hunt, Dragon Rising becomes Asura Dragon Rising, Six Paths becomes the nine-strike Nine Paths Severance, and Lion's Requiem becomes Demonic Lion's Requiem while Asura is active.",
         "Transformed techniques reuse their normal unlocks, ranks, cooldowns, EXP, and anti-farming rules. Silver Mist now uses 2nd Fn + Left Alt + middle mouse during Asura so Nine-Claw Hunt keeps the normal Tiger Hunt input."
       ]
-    }
-  ]
-}
-,
+    },
         {
       "tab": "notice",
       "tag": "COMBAT UPDATE",
