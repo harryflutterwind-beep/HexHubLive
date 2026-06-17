@@ -3,6 +3,26 @@
         {
       "tab": "news",
       "tag": "HAKI",
+      "tagColor": "#B889E8",
+      "title": "Haki HUD restoration & Dragon Twister field",
+      "date": "2026-06-17",
+      "bannerTitle": "DRAGON TWISTER / PROGRESSION FIX",
+      "summary": "Hybrid progression bars are restored across the Haki GUI and quick EXP popup, while Dragon Twister now opens with a slash and leaves a persistent damaging tornado at its endpoint.",
+      "action": "none",
+      "actionTitle": "Haki combat update",
+      "actionSubtitle": "Progression HUD and Dragon Twister",
+      "details": [
+        "The Haki and Sword Skills GUI once again fills progress bars from the further of automatic progression or spendable bank progression instead of visually falling back to Auto EXP only.",
+        "Haki track bars include converted shared Sword EXP when the track is unlocked, while locked Ryuo and Conqueror rows remain visually inactive.",
+        "The compact mastery popup returns to stable packet-driven values and now receives the total spendable Haki track amount so its bar better matches the full GUI.",
+        "Dragon Twister now releases an opening slash that summons a persistent tornado at the endpoint rather than resolving as a one-tick corridor attack.",
+        "The summoned vortex repeatedly damages, pulls, spins, and lifts targets for several seconds before collapsing into a final launch.",
+        "Base, Armament, Ryuo, Black Rope Conqueror, and Asura versions use different field durations, pressure strength, particle palettes, and collapse force while preserving the existing keybind, mastery, cooldown, and Ki-cost systems."
+      ]
+    },
+        {
+      "tab": "news",
+      "tag": "HAKI",
       "tagColor": "#n889E8",
       "title": "Dragon Twister vortex & HUD polish",
       "date": "2026-06-17",
