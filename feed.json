@@ -1,5 +1,23 @@
 {
   "entries": [
+    {
+  "tab": "news",
+  "tag": "Huge update/tweaks/new dbc wish",
+  "tagColor": "#FF6A2A",
+  "tagStyle": "royal",
+  "tagBackgroundStyle": "gradient:#070A16 #18070A #4A0F12 #FF6A2A #0B1028",
+  "title": "Blackblaze Katana first-person render alignment pass",
+  "date": "2026-06-18",
+  "bannerTitle": "BLACKBLAZE RENDER TWEAK",
+  "summary": "Blackblaze now borrows the Spiral Guard Katana first-person framing style so the oversized nodachi actually stays visible on-screen instead of hiding most of the weapon in first person.",
+  "details": [
+    "The Blackblaze Katana main-hand first-person transform now uses the Spiral Guard Katana camera framing style instead of the previous Big Bertha-style first-person test position.",
+    "First-person offhand and camera-space offhand views were updated to the matching Spiral Guard style so dual-wield and Battlegear/Hex offhand handling stay visually consistent.",
+    "Blocking offsets were converted to the new framing so the weapon still shifts into guard cleanly without pushing most of the blade off-screen.",
+    "A small first-person hilt pivot fine-tune was added to keep more of the blade and fiery edge visible in the viewport.",
+    "Third-person placement, custom Blackblaze model geometry, Haki overlay rendering, and animated fire layers were left unchanged in this pass."
+  ]
+},
         {
       "tab": "news",
       "tag": "HAKI update",
