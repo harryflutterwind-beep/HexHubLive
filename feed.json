@@ -2,6 +2,28 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "HAKI PROGRESSION",
+  "tagColor": "#C18CFF",
+  "title": "Sword Mastery enchantment and native DBC EXP eligibility",
+  "date": "2026-06-19",
+  "pinned": true,
+  "priority": 82,
+  "bannerTitle": "SWORD MASTERY / DBC REWARD PASS",
+  "summary": "Sword Mastery now boosts combat-earned Haki and Sword progression, while every genuine native JRMCore/DBC combat mob qualifies for at least the High reward branch without turning every early-saga enemy into a physical boss.",
+  "action": "none",
+  "actionTitle": "Progression update",
+  "actionSubtitle": "Enchanting and native DBC rewards",
+  "details": [
+    "Sword Mastery is a new HyperText-styled weapon enchantment. Normal enchanting is centered on levels I-V, while levels VI-X require exceptionally rare exact high-power enchanting rolls.",
+    "The default progression bonus is 2% per enchantment level: Sword Mastery V grants 10% and Sword Mastery X grants 20% more combat-earned Haki, Sword Style, Sword bank, and technique mastery EXP.",
+    "Raw enchantment NBT remains supported up to Minecraft 1.7.10's signed-short level limit of 32,767, with overflow protection and fractional carry for small EXP awards.",
+    "Fixed Dragon Ball wish deposits, command grants, and master rewards are excluded from Sword Mastery so the enchantment cannot multiply non-combat progression rewards.",
+    "Every genuine native JRMCore/Dragon Block C combat NPC now grants progression EXP and uses at least the High reward branch. Normalized 600+ power enemies still receive the full Boss branch.",
+    "Vanilla mobs, CustomNPCs, NPCDBC handling, Ninjin entities, summons, dummies, explicit no-EXP flags, and the existing anti-farming system were not loosened by this pass."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "Huge update/tweaks/new dbc wish",
   "tagColor": "#FF6A2A",
   "tagStyle": "royal",
