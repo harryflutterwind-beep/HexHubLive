@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+  "tab": "notice",
+  "tag": "PERFORMANCE",
+  "tagColor": "#7CE7FF",
+  "title": "CustomNPC HyperText editor FPS guard",
+  "date": "2026-06-22",
+  "bannerTitle": "CNPC EDITOR FPS FIX",
+  "summary": "CustomNPC manager/list screens now bypass live HyperText rendering so styled quest/category/dialog lists do not tank FPS while editing.",
+  "details": [
+    "Added a targeted heavy-editor detector for CustomNPC manager/list GUIs.",
+    "Quest, dialog, faction, tag, transporter, recipe, and similar manager screens now use the cheap vanilla font path for list rows.",
+    "HyperText controls in those editor lists are stripped to readable text instead of being animated every frame.",
+    "Player-facing CustomNPC dialogs and explicit dialog text-area bridge rendering remain allowed.",
+    "This is a focused FPS fix; it does not change Haki, Asura, Dragon Twister, or combat balance."
+  ]
+},
+    {
   "tab": "news",
   "tag": "Tweaks",
   "tagColor": "#7CE7FF",
