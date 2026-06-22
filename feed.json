@@ -2,6 +2,22 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "Tweaks",
+  "tagColor": "#7CE7FF",
+  "title": "Dragon Twister fuller Haki body fill",
+  "date": "2026-06-22",
+  "bannerTitle": "DRAGON TWISTER BODY FILL",
+  "summary": "Added a fuller sustained tornado body for every Haki variant by layering a soft cloud/smoke fill inside the existing tornado shell.",
+  "details": [
+    "Startup swirl was left unchanged.",
+    "Added a sustained-only body-fill layer for all Dragon Twister variants.",
+    "Used a mix of light legacy cloud/smoke and additive modern fill particles.",
+    "Ryuo, Conqueror, and Asura each receive their own styled inner body fill.",
+    "No gameplay, damage, pull, cooldown, or EXP values were changed."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "HAKI PROGRESSION",
   "tagColor": "#C18CFF",
   "title": "Sword Mastery enchantment and native DBC EXP eligibility",
