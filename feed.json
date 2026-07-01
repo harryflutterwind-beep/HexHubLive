@@ -1,15 +1,13 @@
 {
   "entries": [
-    {
+{
   "tab": "news",
   "tag": "HAKI + ORBS",
   "tagColor": "#65F7FF",
-  "tagStyle": "haki",
+  "tagStyle": "gradient:#FF3A22 #FFD86B #65F7FF #B46BFF #FF3A22",
   "tagBackgroundStyle": "gradient:#05040A #12071F #2A0B18 #7A0000 #FF3A22 #FFD86B #65F7FF #0B1028",
   "title": "Pound Phoenix Added + Stacked Cooldown Lore Polish",
   "date": "2026-07-01",
-  "pinned": true,
-  "priority": 85,
   "bannerTitle": "POUND PHOENIX / COOLDOWN RESONANCE",
   "summary": "A new early HexHaki sword projectile has been added with evolving Pound Phoenix stages, Phoenix Rend has been sharpened into a crossing Iai dash, and socketed orb cooldown effects now stack properly with a visible total cooldown line in item lore.",
   "action": "none",
@@ -18,7 +16,7 @@
   "details": [
     "Added Pound Phoenix as a new early HexHaki sword skill unlocked through the Sword Style path.",
     "Pound Phoenix uses Caps Lock + Left Ctrl + Right Mouse, while Phoenix Rend remains on Left Ctrl + Right Mouse.",
-    "Pound Phoenix now progresses through mastery-style stages instead of raw Sword Style level jumps.",
+    "Pound Phoenix progresses through mastery-style stages instead of raw Sword Style level jumps.",
     "Current Pound Phoenix stage names include 36 Pound Phoenix, 72 Pound Phoenix, 108 Pound Phoenix, 360 Pound Phoenix, 720 Pound Phoenix, and 1080 Pound Phoenix.",
     "Pound Phoenix acts as a ranged compressed-air sword projectile, giving Sword Style an earlier ranged pressure option before later large-scale techniques.",
     "Pound Phoenix visuals shift based on active Haki coating: golden air pressure by default, hardened dark edges with Armament, blue-white flowing force with Ryuo, and black-red lightning pressure with Conqueror.",
@@ -40,8 +38,6 @@
   "tagStyle": "royal",
   "title": "Custom enchantments expanded",
   "date": "2026-06-30",
-  "pinned": true,
-  "priority": 86,
   "bannerTitle": "SWEEPING EDGE / HEX LUCK UPDATE",
   "summary": "Sweeping Edge, Hex Luck, Sword Mastery book drops, and visible modern sweep particles are now part of the Haki combat enchantment line.",
   "action": "none",
