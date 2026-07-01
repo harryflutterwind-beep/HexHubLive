@@ -1,6 +1,29 @@
 {
   "entries": [
     {
+  "tab": "news",
+  "tag": "ENCHANTS",
+  "tagColor": "#67E8FF",
+  "title": "Custom enchantments expanded",
+  "date": "2026-06-30",
+  "pinned": true,
+  "priority": 86,
+  "bannerTitle": "SWEEPING EDGE / HEX LUCK UPDATE",
+  "summary": "Sweeping Edge, Hex Luck, Sword Mastery book drops, and visible modern sweep particles are now part of the Haki combat enchantment line.",
+  "action": "none",
+  "actionTitle": "Enchant update",
+  "actionSubtitle": "Sweep, reach, drops, and luck scaling",
+  "details": [
+    "Added a custom Sweeping Edge enchantment for 1.7.10. It can appear from the enchantment table up to Level V.",
+    "Sweeping Edge adds modern-style sweeping combat. At higher levels, successful melee hits can trigger a forward AoE sweep and extended melee reach up to 7 blocks.",
+    "Sweeping Edge now plays visible modern particle effects on successful primary hits, using sweep_attack, gust, small_gust, enchanted_hit, trail, flash, and enchanted hit sparks.",
+    "Custom enchanted books can now rarely drop from eligible vanilla hostile mobs, DBC entities, and NPCDBC-style entities.",
+    "Supported custom book drops include Hex Luck I-X, Sword Mastery I-X, and Sweeping Edge I-V.",
+    "Hex Luck now increases HexOrb drop odds and also improves the odds of custom enchanted book drops.",
+    "Custom enchant names use HexText/HyperText styling for a more unique visual identity."
+  ]
+},
+    {
   "tab": "notice",
   "tag": "PERFORMANCE",
   "tagColor": "#7CE7FF",
