@@ -37,6 +37,44 @@
     "Added weapon tooltip lines showing the current Haki Edge sword skill bonus and active Haki damage bonus.",
     "Fixed a Pound Phoenix compile issue caused by mismatched method capitalization in the configurable technique balance pass."
   ]
+},
+    {
+  "tab": "news",
+  "tag": "HAKI SYSTEMS",
+  "tagColor": "#65F7FF",
+  "tagStyle": "gradient:#65F7FF #B46BFF #FF3A22 #FFD86B #65F7FF",
+  "tagBackgroundStyle": "gradient:#05040A #0B1028 #12071F #2A0B18 #7A0000 #FF3A22 #FFD86B #65F7FF",
+  "title": "Haki Balance Configs + Server Charge Support + Haki Edge",
+  "date": "2026-07-06",
+  "bannerTitle": "HAKI TECHNIQUE BALANCE / HAKI EDGE",
+  "summary": "HexHaki received a major combat polish pass with cleaner Conqueror unlocks, safer charged-skill validation for multiplayer servers, configurable sword technique balance, shorter config GUI names with hover explanations, and a new Haki Edge custom enchantment that boosts sword skill and active Haki damage.",
+  "action": "none",
+  "actionTitle": "Haki combat polish",
+  "actionSubtitle": "Balance, config, server safety, and enchant scaling",
+  "details": [
+    "Fixed the Conqueror unlock requirement so it now follows the configured Armament and Ryuo level requirements instead of forcing Ryuo to level 50.",
+    "Updated the default Conqueror unlock path to Armament level 25 and Ryuo level 25.",
+    "Added server-side charge validation for major charged Haki sword skills so stale releases are rejected more safely on multiplayer servers.",
+    "Charged skill validation now tracks player identity, dimension, hotbar slot, held item, item damage, and active Haki coating mode.",
+    "Applied the stronger charge context checks to Tiger Hunt, Dragon Twister, Lion's Requiem, Six Paths Severance, Billion-Fold World, Trichiliocosm, Asura Silver Mist, and Asura Dead Man's Game.",
+    "Added clearer failed-charge feedback messages so players are told when a charge was too short or broke because the weapon/coating changed.",
+    "Softened early Asura balance by increasing the Novice duration and reducing the early cooldown curve.",
+    "Cleaned up Asura early-unlock costs so Silver Mist and Dead Man's Game scale more logically after Asura Mode.",
+    "Improved Asura resource safety so Ki and stamina are checked before spending, preventing stamina from being wasted when Ki payment fails.",
+    "Added a compact Next Unlocks helper line to the Haki controls/progression GUI.",
+    "Added a new skills.haki_techniques config category for sword technique balance.",
+    "Sword skill cooldowns, stamina costs, Ki scaling, minimum costs, and charge timings can now be tuned from config instead of being fully hardcoded.",
+    "Configurable technique balance now covers Sword Slash, Multi Slash, Dragon Rising, Phoenix Rend, Pound Phoenix, Tiger Hunt, Dragon Twister, Lion's Requiem, Six Paths, Trichiliocosm, Asura activation, Asura Silver Mist, and Asura Dead Man's Game.",
+    "Added shorter in-game config display names for long Haki progression and Haki technique config keys.",
+    "Added hover tooltips for Haki config entries showing the full internal key and a brief explanation of what each option controls.",
+    "Added the custom Haki Edge enchantment for Haki-compatible weapons.",
+    "Haki Edge uses a HyperText-styled display name and can appear on compatible weapons or rare custom enchanted books.",
+    "Haki Edge increases sword skill damage and active Haki damage, with separate config values for per-level scaling and maximum bonus caps.",
+    "Haki Edge scaling applies to major sword arts including Phoenix Rend, Pound Phoenix, Dragon Rising, Tiger Hunt, Dragon Twister, Lion's Requiem, Six Paths, Trichiliocosm, and Asura sword variants.",
+    "Haki Edge also boosts coated direct melee hits and Haki sweep-style damage while the weapon has an active Haki mode.",
+    "Added weapon tooltip lines showing the current Haki Edge sword skill bonus and active Haki damage bonus.",
+    "Fixed a Pound Phoenix compile issue caused by mismatched method capitalization in the configurable technique balance pass."
+  ]
 }
 {
   "tab": "news",
