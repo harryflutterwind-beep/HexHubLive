@@ -2,6 +2,29 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "TOTEM UPDATE",
+  "tagColor": "#FFD86B",
+  "tagStyle": "gradient:#FF9A3D #FFD86B #FFFFFF #FFB347 #FFD86B",
+  "tagBackgroundStyle": "gradient:#120700 #2B1000 #4A1B00 #241000 #120700",
+  "title": "<shadow #2A0B00><grad #FF9A3D #FFD86B #FFFFFF #FFB347 #FFD86B scroll=0.09 styles=l>Legacy Totem Overhaul + DBC Buff Support</grad></shadow>",
+  "date": "2026-07-18",
+  "bannerTitle": "LEGACY TOTEM UPDATE",
+  "summary": "<grad #FFD86B #FFFFFF #FF9A3D scroll=0.08>The custom Totem of Undying now has upgraded activation effects, preservation procs, working DBC stat bonuses, animated textures, and a visible buff timer.</grad>",
+  "action": "none",
+  "actionTitle": "Read Update",
+  "actionSubtitle": "Totem and controls overhaul",
+  "details": [
+    "<glow #FFB347><grad #FFD86B #FFFFFF #FF9A3D scroll=0.09 styles=l>Reworked the custom Totem of Undying activation.</grad></glow> It now preserves the expected death-prevention behavior while playing synchronized activation sounds, particles, and client animation effects.",
+    "<grad #FFFFFF #65F7FF #B46BFF scroll=0.08>Added a configurable preservation chance.</grad> When successful, the totem activates without being consumed and displays a stronger empowered visual effect.",
+    "<grad #FFD86B #FFFFFF #FF5CF4 scroll=0.08>The preservation proc now grants a temporary all-stat DBC bonus.</grad> The working bonus uses the NPCDBC bonus system instead of permanently modifying the player's base JRMCore attributes.",
+    "<grad #65F7FF #FFFFFF #B46BFF scroll=0.08>The bonus safely clears when its duration expires, the player dies, respawns, or logs out.</grad>",
+    "<shadow #180022><grad #FF5CF4 #B46BFF #65F7FF #FFFFFF scroll=0.09>The empowered totem texture remains active for the full buff duration.</grad></shadow> The normal totem keeps its original coloring and now only uses a lightweight blinking-eye animation.",
+    "<grad #FFFFFF #FFD86B #FF9A3D scroll=0.08>Added an on-screen JRMCore-style status shelf entry.</grad> It shows the all-stat bonus amount, remaining minutes and seconds, and a shrinking duration bar with low-time warning colors.",
+    "<grad #65F7FF #FFFFFF #9C6CFF scroll=0.08>Moved several previously hard-coded HexHaki modifier controls into Minecraft's Controls menu.</grad> Updated Haki GUI descriptions and related messages now display the player's currently assigned bindings."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "HAKI SYSTEMS",
   "tagColor": "#65F7FF",
   "tagStyle": "gradient:#65F7FF #B46BFF #FF3A22 #FFD86B #65F7FF",
