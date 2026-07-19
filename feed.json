@@ -2,6 +2,25 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "HYPERTEXT CHAT INPUT",
+  "tagColor": "#67E8FF",
+  "tagStyle": "gradient:#67E8FF #9C6CFF #FF5CF4 #67E8FF",
+  "tagBackgroundStyle": "gradient:#05040A #0B1028 #12071F #05040A",
+  "title": "Cleaner Live HyperText Editing in Chat",
+  "date": "2026-07-18",
+  "bannerTitle": "HYPERTEXT CHAT INPUT POLISH",
+  "summary": "HyperText tags are now easier to write and edit directly inside the Minecraft chat box.",
+  "changes": [
+    "Unfinished HyperText tags now remain visible while they are being typed.",
+    "Completed opening tags disappear after the closing > is entered.",
+    "Completed closing tags also disappear once fully written.",
+    "Message text continues displaying with the active HyperText formatting.",
+    "Moving the cursor into a completed tag reveals the section being edited.",
+    "Removed the duplicate HyperText preview that could overlap the normal chat input."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "TOTEM UPDATE",
   "tagColor": "#FFD86B",
   "tagStyle": "gradient:#FF9A3D #FFD86B #FFFFFF #FFB347 #FFD86B",
