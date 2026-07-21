@@ -2,6 +2,35 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "HAKI / GEM UPDATE",
+  "tagColor": "#FF5B6E",
+  "tagStyle": "gradient:#FF334F #FF7A3D #FFD05A #FF334F",
+  "tagBackgroundStyle": "gradient:#140308 #2B0710 #4A1010 #7A2515 #140308",
+  "title": "Tiered Bleeds + Orb Upgrade Levels",
+  "date": "2026-07-21",
+  "bannerTitle": "BLEED COMBAT / GEM +1 TO +5",
+  "summary": "Phoenix Rend, Tiger Hunt, and successful Lion counters can now leave capped tier-scaled bleeds, while rolled Hex orbs can be combined in threes for risky +1 through +5 upgrades that strengthen their existing stats.",
+  "action": "none",
+  "actionTitle": "Combat and Gem Progression",
+  "actionSubtitle": "Haki bleed effects and three-orb upgrades",
+  "details": [
+    "Phoenix Rend and Tiger Hunt now apply a bleed whenever their direct Haki damage successfully lands.",
+    "Lion's Requiem applies its bleed only when the Lion Counter path successfully damages the target.",
+    "Bleed damage scales at 1.5% of the triggering hit per skill tier and lasts longer at higher tiers.",
+    "The bleed pulses once per second, refreshes or strengthens instead of stacking without limit, and is capped at 30% total damage from the triggering hit.",
+    "Each successful bleed pulse creates a dark-red modern trail burst and critical-hit particles around the affected entity.",
+    "Three rolled orbs of the exact same kind, subtype, and current + level can now be placed anywhere in a 3x3 crafting table for an upgrade attempt.",
+    "Upgrade progression is capped at +5 and the successful level is added directly to the orb's displayed name.",
+    "Success chances are 75% for +1, 65% for +2, 55% for +3, 45% for +4, and 35% for +5.",
+    "A successful attempt returns one upgraded orb. A failed attempt consumes two orbs and returns one unchanged orb.",
+    "The strongest roll among the three matching inputs is used as the result base before the upgrade is resolved.",
+    "Every successful + level improves flat rolls by roughly 5% with at least +1 gained, while percentage rolls gain +1 percentage point per level.",
+    "Negative rolls move slightly toward zero when upgraded, and + levels are preserved through supported orb rerolls.",
+    "Upgraded orbs are blocked from the older Enhanced and Evolved recipes so their + level cannot be erased accidentally."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "HYPERTEXT CHAT INPUT",
   "tagColor": "#67E8FF",
   "tagStyle": "gradient:#67E8FF #9C6CFF #FF5CF4 #67E8FF",
