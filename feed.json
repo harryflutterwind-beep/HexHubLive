@@ -2,6 +2,17 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "HAKI SKILLS",
+  "tagColor": "#65F7FF",
+  "tagStyle": "gradient:#65F7FF #B46BFF #FF3A22 #FFD86B #65F7FF",
+  "tagBackgroundStyle": "gradient:#05040A #0B1028 #12071F #2A0B18 #7A0000 #FF3A22",
+  "title": "Haki Skill EXP, Bleed, Counter and NPC Pound Phoenix Update",
+  "date": "2026-07-22",
+  "bannerTitle": "HAKI COMBAT POLISH",
+  "summary": "Fixed EXP crediting for Pound Phoenix, Multi Slash and Phoenix Rend, including transformed skill variants. Pound Phoenix now requires a sufficiently strong target to award EXP. Added protection against Totem passive bonuses stacking, upgraded Tiger Hunt with a forward strike and visual return dash, expanded bleed support to weapon Haki skills after Tier 1, added tier-scaled multi-hit dashes to Lion's Requiem counters, and exposed Pound Phoenix for CustomNPCs scripting."
+},
+    {
+  "tab": "news",
   "tag": "HAKI / GEM UPDATE",
   "tagColor": "#FF5B6E",
   "tagStyle": "gradient:#FF334F #FF7A3D #FFD05A #FF334F",
