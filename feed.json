@@ -2,6 +2,26 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "HEXFONT FIX",
+  "tagColor": "#FFE066",
+  "tagStyle": "gradient:#FFF8D5 #FFD700 #FFF2A0 #FFE066",
+  "tagBackgroundStyle": "gradient:#2A2100 #5C4600 #A67C00 #FFD700 #FFF2A0",
+  "title": "Nested HexFont Style Rendering Fix",
+  "date": "2026-07-24",
+  "bannerTitle": "HEXFONT RENDER FIX",
+  "summary": "Nested glow, outline, gradient, and shake tags now render one styled text fill instead of leaving a duplicate vanilla text layer behind.",
+  "action": "news",
+  "actionTitle": "View Fix Notes",
+  "actionSubtitle": "Nested style rendering",
+  "details": [
+    "Fixed nested <glow>, <outline>, <grad>, and <shake> combinations drawing the original vanilla text behind the styled result.",
+    "Glow now preserves the nested gradient or animated fill unless an explicit glow text color is supplied.",
+    "The fix covers examples such as Super Saiyan Full Power and Super Saiyan 2 without removing the existing HexFont bypasses or GUI guards.",
+    "Existing single-style rendering and explicit fill/color behavior remain unchanged."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "HAKI SKILLS",
   "tagColor": "#15F7FF",
   "tagStyle": "gradient:#15F7FF #B46BFF #FF3A22 #FFD86B #f0077e",
