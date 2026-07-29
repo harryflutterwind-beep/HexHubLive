@@ -2,6 +2,27 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "HYPERTEXT / HEXHUB",
+  "tagColor": "#65F7FF",
+  "tagStyle": "gradient:#65F7FF #B46BFF #FF72D2 #FFD86B #65F7FF",
+  "tagBackgroundStyle": "gradient:#103A55 #294B79 #563A82 #843654 #103A55",
+  "title": "Complete Chat Wrapping + Seamless HexHub Gradients",
+  "date": "2026-07-28",
+  "bannerTitle": "CHAT WRAP / HEXHUB GRADIENT FIX",
+  "summary": "HyperText wrapping now preserves complete styles for NPC and player chat, while HexHub gradients loop without dark hard seams.",
+  "action": "news",
+  "actionTitle": "Read Update",
+  "actionSubtitle": "Chat and GUI polish",
+  "details": [
+    "NPC say messages now wrap as complete HyperText lines, preserving gradient, outline, shadow, glow, bold, and other active wrappers on continuation lines.",
+    "Player HyperText messages now use the same complete-line wrapping setup while ordinary unformatted player chat remains on its normal wrapping path.",
+    "HexHub custom tag gradients no longer jump directly from the final color back to the first color while scrolling.",
+    "Open-ended palettes now travel forward and backward through the supplied colors, removing the dark or black-looking hard seam without inventing extra colors.",
+    "Tag text and its matching gradient pill background use the same seamless palette behavior."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "HEXFONT FIX",
   "tagColor": "#FFE066",
   "tagStyle": "gradient:#FFF8D5 #FFD700 #FFF2A0 #FFE066",
