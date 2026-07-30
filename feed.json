@@ -2,6 +2,17 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "HYPERTEXT PERFORMANCE",
+  "tagColor": "#65F7FF",
+  "tagStyle": "gradient:#65F7FF #7A8CFF #B46BFF #FF6BD6 #65F7FF",
+  "tagBackgroundStyle": "gradient:#050812 #08172A #15103A #2C124D #53175A #0B2433",
+  "title": "HexFont Renderer Performance Overhaul (Attempt)",
+  "date": "2026-07-29",
+  "bannerTitle": "FASTER HYPERTEXT / CUSTOMNPC GUI OPTIMIZATION",
+  "summary": "HexFont received a multi-phase performance overhaul focused on improving frame stability when many animated HyperText strings are visible. Parser patterns are now reused, parsed operation trees and text measurements are globally cached, animated render plans are shared per frame, and compatible gradient, rainbow, wave, outline, and glow passes are batched through Tessellator. CustomNPC nameplates, scripted GUIs, overlays, and native NPC list screens now use dedicated fast paths that avoid repeated stack scans, parsing, width checks, and character-by-character truncation. Phase 7 also introduces persistent animated glyph-command templates so static glyph positions and font UV data can be reused while animation colors and offsets continue updating normally. Vanilla text, HexHelp interactions, CustomNPC quest alerts, JRMCore, NPCDBC, chat, dialogs, and unsupported render combinations retain their guarded fallback behavior."
+},
+    {
+  "tab": "news",
   "tag": "HYPERTEXT / HEXHUB",
   "tagColor": "#65F7FF",
   "tagStyle": "gradient:#65F7FF #B46BFF #FF72D2 #FFD86B #65F7FF",
