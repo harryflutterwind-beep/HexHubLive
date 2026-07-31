@@ -1,5 +1,31 @@
 {
   "entries": [
+        {
+      "enabled": true,
+      "tab": "news",
+      "tag": "1.6 UPDATE",
+      "tagColor": "#65F7FF",
+      "tagStyle": "gradient:#65F7FF #B46BFF #FF315D #FFD86B #65F7FF",
+      "tagBackgroundStyle": "gradient:#05040A #0B1028 #241040 #4A0C31 #05040A",
+      "title": "Modern Movement, Native Combat Animations and Haki Visuals",
+      "date": "2026-07-31",
+      "bannerTitle": "HEX 1.6 COMBAT UPDATE",
+      "summary": "Modern swimming, server-synced native animations, corrected Haki damage, and expanded Haki coating visuals were added in this development pass.",
+      "action": "none",
+      "actionTitle": "Read Changes",
+      "actionSubtitle": "Movement / combat / Haki",
+      "details": [
+        "Added mastered Haki finisher windows with right-click timing, impact frames, STR scaling, and collision-safe target blink attacks.",
+        "Corrected Haki level scaling so the full coated hit is applied and displayed as the primary damage number across vanilla, DBC, NPCDBC, and CustomNPC targets.",
+        "Backported modern treading, swimming, sprint swimming, crawling, dive/rise controls, compact dimensions, and optimized 26.2 water particles.",
+        "Added smooth native DBC/JBRA charge, cast, impact, and follow-through animations for the main Haki sword techniques.",
+        "Added server-authoritative grapple hold, held-target, throw, Xenoverse-style Sledgehammer slam-down, Dragon Fist, and Black Coffin animation phases visible to nearby players.",
+        "Added Armament, Ryuo, and Conqueror coating variants for custom weapons plus compact mode-aware hit presets through the modern particle pipeline.",
+        "Added progression-based hand and forearm coating with Ryuo flow accents and Conqueror lightning while preserving both vanilla skins and JBRA character customization.",
+        "Added separate vanilla and enlarged-JBRA coating calibration so each player renderer keeps the intended hand-to-forearm fade.",
+        "Optimized animation, particle, packet, NBT, and render paths with cached state, distance limits, phase-only synchronization, and zero-work inactive paths."
+      ]
+    },
     {
   "tab": "news",
   "tag": "HYPERTEXT PERFORMANCE",
