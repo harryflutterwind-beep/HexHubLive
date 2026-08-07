@@ -2,6 +2,32 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "ENHANCEMENT / GEM UPDATE",
+  "tagColor": "#FFD45A",
+  "tagStyle": "gradient:#FFF2B0 #FFD45A #FF9F43 #FF5A7D #B879FF #63E6FF",
+  "tagBackgroundStyle": "gradient:#24344F #35506F #554F7D #754F72 #48647D #2C415E",
+  "title": "Equipment Enhancement, Modern Gem Effects and HexSocket Visual Refresh",
+  "date": "2026-08-07",
+  "bannerTitle": "EQUIPMENT ENHANCEMENT / GEM VISUAL UPDATE",
+  "summary": "Expanded equipment enhancement to support customized gear while improving rolled stats, modernizing legacy gem particles, refreshing HexSocket visuals and adding enhancement-tier crafting colors.",
+  "action": "none",
+  "actionTitle": "Read Changes",
+  "actionSubtitle": "Enhancement / Gems / HexSocket",
+  "details": [
+    "Equipment enhancement recipes now match the underlying registered item rather than requiring identical rarity, rolled stats, sockets, evolution data, custom lore or other custom NBT.",
+    "Three copies of the same registered weapon, armor piece or accessory can now be used together regardless of rarity or other customization, while all three must still share the same current enhancement level.",
+    "The center crafting-grid item is preferred as the preserved main item. Its rarity, rolled attributes, sockets, evolution state, custom name, lore, enchantments, durability and other supported item data carry into the enhancement result while the two donor copies are consumed.",
+    "Successful enhancement now strengthens eligible rolled combat stats. Weapons gain 2.5% rolled-stat improvement per + level, armor gains 2.0% per level and accessories gain 1.5% per level.",
+    "Enhancement stat growth uses a separately tracked enhancement layer so changing + levels does not repeatedly compound already-enhanced values, while negative rolls improve toward zero instead of becoming worse.",
+    "Reworked the Rainbow / Swirly gem family with modern individually colored rainbow particles, smooth orbit and spiral motion, prismatic ribbons and white, cyan, magenta and gold accent sparkles while substantially reducing legacy vanilla particle spam.",
+    "Reworked the Fire gem with cleaner modern flame wisps, rising embers and red, orange, amber and gold accents across its aura, impacts, damage-over-time effects and larger bursts.",
+    "Refreshed the HexSocket decorative gem display using newer existing artwork including Evolved Rainbow, Celestial Core, Crystalline Ocean, Glitch Prism, Astral Prism and Evolved Inferno visuals.",
+    "The crafting-table enhancement HUD now changes visual theme with the target + level: silver and ice for +1 through +4, blue and cyan for +5 through +8, violet and magenta for +9 through +11, gold for +12 through +13, crimson and gold for +14, and the highest rainbow treatment for +15.",
+    "Updated enhancement descriptions to make it clear that the recipe requires three copies of the same underlying item while rarity and other custom item data are allowed to differ."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "JRMC TECH UPDATE",
   "tagColor": "#B86BFF",
   "tagStyle": "gradient:#52F7FF #8D72FF #D85CFF #FF315D #52F7FF",
