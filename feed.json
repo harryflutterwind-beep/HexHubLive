@@ -2,6 +2,29 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "PERFORMANCE",
+  "tagColor": "#4FD1C5",
+  "title": "Major Rendering & FPS Improvements",
+  "date": "2026-08-15",
+  "bannerTitle": "PERFORMANCE UPDATE",
+  "summary": "Major FPS improvements for HexFont, rarity-heavy inventories, chests, and dropped item effects.",
+  "action": "none",
+  "actionTitle": "Performance",
+  "actionSubtitle": "Rendering optimization pass",
+  "details": [
+    "Greatly improved FPS when opening chests and inventories containing large amounts of rarity and HexColorText-enabled items.",
+    "Rarity overlays now reuse cached rarity, evolved tier, pseudo-black, chaos tier, and visual information instead of repeatedly scanning item lore and NBT every render frame.",
+    "Added faster HexFont rendering paths for ordinary GUI text such as item stack counts so non-HyperText text can bypass unnecessary compatibility and styled-text processing.",
+    "Reduced repeated NBT serialization, lore parsing, regex checks, and other expensive per-frame item calculations.",
+    "Dropped-item rarity beams now cache nearby item scans rather than searching for EntityItems every rendered frame.",
+    "Item beams now reuse cached rarity and evolved item data instead of independently rebuilding visual state.",
+    "Added adaptive detail scaling to decorative rarity gloss, item beam geometry, chaos sparks, rings, halos, and flare effects when client FPS begins to fall.",
+    "Expanded general HexFont performance handling while preserving full gradients, glow, outlines, animated text, and other HyperText effects whenever performance allows.",
+    "Overall rendering is now considerably more stable during normal gameplay, item-heavy inventories, large chests, and areas containing many custom rarity drops."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "ENHANCEMENT / GEM UPDATE",
   "tagColor": "#FFD45A",
   "tagStyle": "gradient:#FFF2B0 #FFD45A #FF9F43 #FF5A7D #B879FF #63E6FF",
