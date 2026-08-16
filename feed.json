@@ -4,6 +4,7 @@
   "tab": "news",
   "tag": "PERFORMANCE",
   "tagColor": "#4FD1C5",
+  "tagStyle": "<glow #FFFFFF><outline><grad #C7FF7A #FFFFFF #8EDB4E>",
   "title": "Major Rendering & FPS Improvements",
   "date": "2026-08-15",
   "bannerTitle": "PERFORMANCE UPDATE",
