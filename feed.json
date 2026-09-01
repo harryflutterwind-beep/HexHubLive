@@ -45,7 +45,7 @@
     "GUI FPS PASS — Optimized dense CLEAR/RESULTS rendering after repeated rounds began affecting FPS. Only visible scroll rows are sent through the renderer, dense stat rows use static gradients, decorative motion is reduced on large score screens, and stale GUI ambient sounds are stopped more aggressively between repeated screens.",
     "CURRENT DESIGN — CustomNPCs remains the primary fighter-authoring route because scripts can control forms, phases, attacks, dialogue, animations, and gimmicks. The Survival engine is being kept generic enough to later mix CustomNPC/NPCDBC fighters with native DBC and Ninjin entities through adapter-style opponent handling.",
     "FUTURE DIRECTION — Continue expanding real combat telemetry, special-skill tracking, fighter registries/random encounter selection, native DBC/Ninjin opponent adapters, boss/depth progression, money/item reward pools, and reuse of the Survival scroll/result GUI as a general-purpose reward screen."
-  ],
+  ]
 },
     {
   "tab": "news",
