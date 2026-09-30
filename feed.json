@@ -2,6 +2,34 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "SOCKETS / WISHES / HUD",
+  "tagColor": "#64F3FF",
+  "tagStyle": "<pulse><glow #73F7FF><outline><grad #E9FFFF #72E8FF #8B7CFF scroll=0.18>",
+  "tagBackgroundStyle": "gradient:#06151C #0B2633 #123B4A #182A42 #07141D",
+  "title": "Socket Station Routing, JRMC Wish Stats and Status Shelf Fixes",
+  "date": "2026-09-30",
+  "bannerTitle": "SOCKET / WISH SYSTEM FIX",
+  "summary": "Fixed the new Socket, Unsocket and Socket Opener interfaces failing to launch from the unified HexHub or commands, corrected the +1,000 JRMC dragon-wish bonus so it modifies JRMCore's real live attributes, aligned custom wish effects with the native status shelf, and moved the item evolution badge away from durability bars.",
+  "action": "news",
+  "actionTitle": "Read Fixes",
+  "actionSubtitle": "Sockets / JRMC Bonus / Wish HUD",
+  "details": [
+    "SOCKET STATION ROUTING — Fixed the unified Socket, Unsocket and Socket Opener screens doing nothing when launched from HexHub. The selector interfaces now use a dedicated server-to-client GUI open path before transitioning into their real server-backed containers.",
+    "SOCKET COMMANDS — Fixed /hexsocket station, /hexsocket unsocketer and /hexsocket opener so the command routes use the same working GUI launch path as the unified Hub.",
+    "SOCKET OPENER — The Socket Opener selector no longer requires an item to already be held simply to open the interface. Item eligibility is handled by the picker itself.",
+    "GUI TRANSITION — Selecting an item from the new socket interfaces now transitions into the actual socket station/container instead of silently failing during the client-only selection stage.",
+    "JRMC +1K WISH BONUS — Fixed the +1,000 attribute dragon wish not appearing in the player's real DBC/JRMCore stats.",
+    "JRMC LIVE ATTRIBUTES — Wish bonuses now target JRMCore 1.3.51's live jrmcStrI, jrmcDexI, jrmcCnsI, jrmcWilI and jrmcCncI integer attributes instead of the inactive/non-calculated attribute keys previously used.",
+    "LEGACY WISH SAFETY — Added version-aware handling for previously granted +1K buffs so an old broken buff cannot later expire and incorrectly subtract 1,000 points from the player's legitimate attributes.",
+    "WISH STATUS SHELF — Custom dragon-wish effects now anchor to JRMCore's existing status-effect shelf instead of estimating a separate HUD position.",
+    "WISH HUD SPACING — Wish icons now follow the native shelf's compact spacing and place their timer/value text beside the icon rather than underneath it.",
+    "WISH HUD FORMAT — Dragon buffs can now display in the same compact style as JRMCore effects, such as ShenronPower+1k(7m), while retaining the custom wish icon.",
+    "ITEM BADGE POSITION — Moved the Origin/Dragon-Evolution item badge away from the lower portion of inventory slots so Minecraft's durability bar remains visible.",
+    "HUD POLISH — The evolution marker now occupies the upper portion of the item slot, reducing overlap between progression indicators, stack information and durability rendering."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "HEXHUB / SURVIVAL / WISHES",
   "tagColor": "#45E6FF",
   "tagStyle": "<glow #7AF7FF><outline><grad #DDF8FF #8CE3FF #47A8FF scroll=0.20>",
