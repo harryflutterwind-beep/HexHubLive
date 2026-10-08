@@ -1,6 +1,139 @@
 {
   "entries": [
     {
+    "tab": "news",
+    "tag": "HEXHAKI / SKILLS",
+    "tagColor": "#FF5A6B",
+    "tagStyle": "gradient:#FF3B4D #FF6A5C #FFB347 #FF3B4D",
+    "tagBackgroundStyle": "gradient:#3A0D14 #5A1820 #44200F #3A0D14",
+    "title": "Sword Rush Added + Haki Skill Cleanup",
+    "date": "2026-10-08",
+    "bannerTitle": "SWORD RUSH / HAKI SKILL UPDATE",
+    "summary": "Added the new Sword Rush Haki sword skill, removed the Conqueror requirement from Conqueror's Slash, and expanded the sword-skill progression with new dash behavior.",
+    "action": "news",
+    "actionTitle": "Read Update",
+    "actionSubtitle": "New sword skill and mastery changes",
+    "details": [
+      "Added Sword Rush as a new Haki weapon skill.",
+      "Sword Rush performs a forward dash, rapid multi-hit combo, aerial rise, downward finishing slash, and final area-of-effect impact.",
+      "Sword Rush uses its own mastery, cooldown, HUD, icon, combat animation, Ki cost, stamina cost, and Survival damage accounting.",
+      "Removed the Conqueror Haki track/coating requirement from Conqueror's Slash while preserving its normal sword progression requirements.",
+      "Fixed Sword Rush being incorrectly displayed as Sword Slash in the cooldown HUD.",
+      "Sword Slash gains a tap-to-dash version at Mastered and Perfected tiers.",
+      "Mastered Sword Slash dashes into the target, deals one additional impact hit, then releases the normal slash.",
+      "Multi Slash also gains a Mastered/Perfected tap-to-dash version with one additional bonus impact hit before the normal barrage."
+    ]
+  },
+  {
+    "tab": "news",
+    "tag": "HEXHAKI / BALANCE",
+    "tagColor": "#FFB84A",
+    "tagStyle": "gradient:#FF8A24 #FFC04D #FFF0A3 #FF8A24",
+    "tagBackgroundStyle": "gradient:#3A2108 #58330D #4A3D16 #3A2108",
+    "title": "Haki Damage Boost Reverted",
+    "date": "2026-10-08",
+    "bannerTitle": "HAKI DAMAGE REBALANCE",
+    "summary": "Rolled back the temporary global Haki damage increases so weapon skills are back on their intended pre-boost balance values.",
+    "action": "news",
+    "actionTitle": "Read Update",
+    "actionSubtitle": "Weapon damage balance cleanup",
+    "details": [
+      "Removed the temporary global +18.5% Haki weapon-skill damage boost.",
+      "Removed the temporary +29% Sword Slash and Multi Slash total damage override.",
+      "Removed the additional Conqueror burst/clash damage boost.",
+      "New skills and their mechanics remain intact; only the broad temporary damage increases were reverted."
+    ]
+  },
+  {
+    "tab": "news",
+    "tag": "AURA / CHARACTER",
+    "tagColor": "#66F1FF",
+    "tagStyle": "gradient:#38E8FF #5F9DFF #B96BFF #FF72D2 #38E8FF",
+    "tagBackgroundStyle": "gradient:#0A3440 #183858 #38245E #532541 #0A3440",
+    "title": "Hex Aura Gradient + Hex Hair Character Setup",
+    "date": "2026-10-08",
+    "bannerTitle": "AURA / HEX HAIR VISUAL UPDATE",
+    "summary": "Expanded the character customization flow with direct Hex Hair access and a smoother multi-color aura system designed for both normal DBC and NPCDBC rendering.",
+    "action": "news",
+    "actionTitle": "Read Update",
+    "actionSubtitle": "Character customization and aura polish",
+    "details": [
+      "Added a Hex Hair button to the JRMC Appearance and Barber character setup screens.",
+      "Hex Hair opens using the player's current rendered hair setup.",
+      "Reworked Hex Aura gradient mode so selected colors appear together instead of flashing between Color A, B, and C.",
+      "Added an HSV-style aura color picker with separate A, B, and C color selection.",
+      "Aura colors continue to support #RRGGBB, #RGB, and 0xRRGGBB formats.",
+      "Aura animation was slowed and smoothed for a more continuous flow.",
+      "NPCDBC enhanced aura color bands are used so gradients can remain visible simultaneously.",
+      "Aura rendering is intended to remain visible through both standard DBC player rendering and NPCDBC/revamped character preview rendering."
+    ]
+  },
+  {
+    "tab": "news",
+    "tag": "WISHES / HUD",
+    "tagColor": "#FFD85A",
+    "tagStyle": "gradient:#FFB530 #FFE067 #FFF5B2 #FFB530",
+    "tagBackgroundStyle": "gradient:#493309 #65501A #514113 #493309",
+    "title": "Shenron Chance + Buff HUD Cleanup",
+    "date": "2026-10-08",
+    "bannerTitle": "SHENRON VISUAL / CHANCE TWEAK",
+    "summary": "Returned the Ultimate Shenron upgrade chance to its intended low rate and adjusted the custom wish buff HUD so it does not overlap JRMC status effects.",
+    "action": "news",
+    "actionTitle": "Read Update",
+    "actionSubtitle": "Dragon wish balance and HUD positioning",
+    "details": [
+      "Reduced the Earth Shenron to Ultimate Shenron upgrade chance back to 10%.",
+      "Removed the temporary high testing chance.",
+      "Moved the custom Shenron buff/status display away from JRMC's native status-effect shelf.",
+      "Horizontal JRMC status layouts now leave additional spacing before custom Hex effects.",
+      "Vertical status layouts move the custom wish effect down by a full native effect slot.",
+      "Legacy Totem positioning continues after the relocated Shenron buff."
+    ]
+  },
+  {
+    "tab": "news",
+    "tag": "LORE / UI",
+    "tagColor": "#B88CFF",
+    "tagStyle": "gradient:#8F62FF #C18BFF #F1C4FF #8F62FF",
+    "tagBackgroundStyle": "gradient:#271546 #41205F #522E67 #271546",
+    "title": "Lore Page Keybind Typing Fix",
+    "date": "2026-10-08",
+    "bannerTitle": "LORE VIEW INPUT FIX",
+    "summary": "Fixed the pinned lore viewer consuming its keybind while the player was trying to type in chat or other text-entry GUIs.",
+    "action": "news",
+    "actionTitle": "Read Update",
+    "actionSubtitle": "Keybind and text-input cleanup",
+    "details": [
+      "Lore View no longer consumes the configured key when no lore action is available.",
+      "The key is only consumed when opening or closing the pinned lore viewer.",
+      "Using K for Lore View no longer prevents K from being typed normally in chat and text fields.",
+      "The Lore View keybind itself does not need to be changed."
+    ]
+  },
+  {
+    "tab": "news",
+    "tag": "SURVIVAL / SAIYAN SAGA",
+    "tagColor": "#77FF6A",
+    "tagStyle": "gradient:#43E85A #7CFF73 #D5FF8C #43E85A",
+    "tagBackgroundStyle": "gradient:#113A18 #1F5527 #385A20 #113A18",
+    "title": "Six-Saibamen Survival Encounter",
+    "date": "2026-10-08",
+    "bannerTitle": "SAIBAMEN MULTI-FIGHT",
+    "summary": "Expanded the Dragon Ball Z Survival roster with a full six-Saibamen group encounter using the same multi-opponent framework as other squad fights.",
+    "action": "news",
+    "actionTitle": "Read Update",
+    "actionSubtitle": "Saiyan Saga roster expansion",
+    "details": [
+      "Converted the existing Saibaman roster slot into a six-Saibamen Survival encounter.",
+      "All six Saibamen spawn as individually tracked support bodies.",
+      "Each Saibaman keeps the existing Saibaman Ki Volley and self-destruct combat loadout.",
+      "The encounter tracks combined health, combined power, individual deaths, and remaining member count.",
+      "The round completes only after all six Saibamen have been defeated.",
+      "Random boss promotion is disabled for the grouped Saibamen encounter.",
+      "The encounter displays as Six Saibamen in Survival."
+    ]
+  },
+    {
   "tab": "news",
   "tag": "DRAGON WISH / ULTIMATE SHENLONG",
   "tagColor": "#FF765E",
