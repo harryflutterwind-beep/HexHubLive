@@ -1,6 +1,135 @@
 {
   "entries": [
     {
+    "tab": "news",
+    "tag": "HEXHAKI / STABILITY",
+    "tagColor": "#C46BFF",
+    "tagStyle": "gradient:#6A35FF #A14CFF #E65AFF #6A35FF",
+    "tagBackgroundStyle": "gradient:#160C32 #28134A #3B1744 #160C32",
+    "title": "Phantom Cascade Reworked + Stability Fixes",
+    "date": "2026-10-15",
+    "bannerTitle": "PHANTOM CASCADE / STABILITY UPDATE",
+    "summary": "Reworked Phantom Cascade into a multi-stage Ultimate sword technique and fixed a world-loading crash caused by the original networked clone implementation.",
+    "action": "news",
+    "actionTitle": "Read Update",
+    "actionSubtitle": "Ultimate Haki skill and stability fixes",
+    "details": [
+      "Reworked Phantom Cascade into a full multi-stage Ultimate Haki technique.",
+      "Phantom Cascade begins with a normal Sword Slash that deals its own opening damage.",
+      "The target is briefly pinned while 4 to 6 clone positions surround it.",
+      "Each clone fires several Haki sword slashes before entering a synchronized charge phase.",
+      "The technique finishes with a cinematic multi-direction dash attack and final impact.",
+      "Clone visuals collapse back into the main player after the finishing strike.",
+      "Removed the original Forge-networked Phantom clone entity after it caused an integrated-server FMLProxyPacket world-loading crash.",
+      "Phantom Cascade clones are now transient cinematic effects and are not saved, network-tracked, or persisted into chunks.",
+      "The Phantom Cascade control combination was changed to Right Alt + Right Ctrl + RMB."
+    ]
+  },
+
+  {
+    "tab": "news",
+    "tag": "SURVIVAL / STORAGE",
+    "tagColor": "#73F5C4",
+    "tagStyle": "gradient:#32D99B #6BF5C2 #63D6FF #32D99B",
+    "tagBackgroundStyle": "gradient:#092C24 #12463A #123A4C #092C24",
+    "title": "Survival Squad Fixes + Extra Storage Polish",
+    "date": "2026-10-16",
+    "bannerTitle": "SURVIVAL SQUADS / STORAGE UPDATE",
+    "summary": "Improved grouped Survival encounters, combined the Ginyu Force into one battle, and fixed several Extra Storage and JRMC status issues.",
+    "action": "news",
+    "actionTitle": "Read Update",
+    "actionSubtitle": "Squad encounters, storage and HUD fixes",
+    "details": [
+      "Improved the six-Saibamen encounter spawn logic so uneven terrain is less likely to cancel the entire fight.",
+      "Improved Frieza Force formation spawning with additional collision-safe fallback positions.",
+      "Grouped Survival support fighters now fail-soft when optional NPCDBC visual setup cannot be applied.",
+      "Converted the Ginyu Force into one five-member Survival encounter.",
+      "Captain Ginyu is the strongest member of the Ginyu Force encounter while Guldo is the weakest.",
+      "Each Ginyu Force member retains their own character-specific combat and Ki attack loadout.",
+      "Fixed Ginyu Force grouped scaling so each member uses their own scaled melee strength instead of sharing one fighter's value.",
+      "Fixed the Extra Storage wish displaying an untranslated internal localization key.",
+      "Renamed the wish display to Expand My Extra Storage.",
+      "Added a dedicated storage-themed icon for the Extra Storage wish.",
+      "Improved Extra Storage inventory synchronization so stored items remain visible client-side.",
+      "Adjusted JRMC Hex status placement to reduce overlap with native JRMCore status text."
+    ]
+  },
+
+  {
+    "tab": "news",
+    "tag": "STORAGE / UI",
+    "tagColor": "#7DE9FF",
+    "tagStyle": "gradient:#58D7FF #8BF6EA #FFF19A #58D7FF",
+    "tagBackgroundStyle": "gradient:#092D42 #104552 #4A4320 #092D42",
+    "title": "Extra Storage UI Expansion",
+    "date": "2026-10-18",
+    "bannerTitle": "EXTRA STORAGE / UI POLISH",
+    "summary": "Expanded Extra Storage into a cleaner permanent-storage interface with HyperText styling and improved slot rendering.",
+    "action": "news",
+    "actionTitle": "Read Update",
+    "actionSubtitle": "Storage visuals and interface polish",
+    "details": [
+      "Added Hex HyperText styling to the Extra Storage title and slot counter.",
+      "Improved the Extra Storage chest-style layout and slot alignment.",
+      "Fixed a client-side slot synchronization issue that could make stored items appear visually empty even while the server still contained them.",
+      "Continued compatibility work between item rarity overlays and the Extra Storage slot renderer.",
+      "Kept the Extra Storage inventory backed by the player's permanent Hex storage data rather than a temporary container."
+    ]
+  },
+
+  {
+    "tab": "news",
+    "tag": "STORAGE / HEXHUB",
+    "tagColor": "#A989FF",
+    "tagStyle": "gradient:#6750FF #A66BFF #68DFFF #6750FF",
+    "tagBackgroundStyle": "gradient:#16133C #2E174A #123C50 #16133C",
+    "title": "128-Slot Extra Storage + Scrollable Viewport",
+    "date": "2026-10-21",
+    "bannerTitle": "EXTRA STORAGE EXPANSION",
+    "summary": "Reworked Extra Storage into a large-capacity scrollable inventory inspired by large chest and backpack interfaces.",
+    "action": "news",
+    "actionTitle": "Read Update",
+    "actionSubtitle": "Larger permanent storage with scrolling",
+    "details": [
+      "Raised the default Extra Storage capacity ceiling to 128 slots.",
+      "Kept the existing Shenron, Porunga, and Ultimate Shenron storage-wish progression while allowing substantially more future capacity.",
+      "Extra Storage now uses a fixed five-row, 45-slot visible viewport instead of attempting to display every backend slot at once.",
+      "Added mouse-wheel scrolling through additional storage rows.",
+      "Added a draggable vertical scrollbar for larger inventories.",
+      "Locked storage cells remain unavailable until the corresponding storage capacity has been wished for.",
+      "The slot counter now displays current unlocked capacity against the maximum storage capacity.",
+      "Moved the Extra Storage scrollbar away from the right-side NEI area to reduce interface overlap.",
+      "Changed the HexHub Extra Storage menu icon to an Ender Chest-style storage icon."
+    ]
+  },
+
+  {
+    "tab": "news",
+    "tag": "HEXHAKI / CONTROLS",
+    "tagColor": "#56CFFF",
+    "tagStyle": "gradient:#2F9FFF #55E7FF #7D8FFF #2F9FFF",
+    "tagBackgroundStyle": "gradient:#081D3C #0A3D55 #242A59 #081D3C",
+    "title": "Earthsplitter + Haki Controls Cleanup",
+    "date": "2026-10-22",
+    "bannerTitle": "HAKI SKILL / CONTROL UPDATE",
+    "summary": "Fixed Earthsplitter's impact position, corrected Conqueror's Slash controls, expanded its dash, and cleaned up the growing Haki control list.",
+    "action": "news",
+    "actionTitle": "Read Update",
+    "actionSubtitle": "Skill fixes and control-page improvements",
+    "details": [
+      "Fixed Earthsplitter Descent radial slashes spawning several blocks above the actual slam location.",
+      "Earthsplitter now resolves the ground collision surface beneath the player and uses that position for its slash waves, particles, and impact effects.",
+      "Fixed Conqueror's Slash appearing as Input: Unassigned in the Haki controls menu.",
+      "Conqueror's Slash now correctly displays Right Ctrl + hold RMB.",
+      "Increased Conqueror's Slash forward dash distance while retaining its existing multi-target and cinematic hit behavior.",
+      "Reworked the Haki Controls page into a fixed-height scrollable list.",
+      "Added mouse-wheel scrolling and a visible scrollbar to the Haki skill controls list.",
+      "Skill rows no longer overlap the Next Unlocks and footer information.",
+      "Restored the older stable JBRA Haki coating renderer after newer experimental coating changes caused incorrect arm rendering.",
+      "The restored Haki coating renderer is now treated as the compatibility baseline while newer Haki skill and Extra Storage features remain enabled."
+    ]
+  },,
+    {
   "tab": "news",
   "tag": "SURVIVAL / AURA / HAKI",
   "tagColor": "#7AF4FF",
