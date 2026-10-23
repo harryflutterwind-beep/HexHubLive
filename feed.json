@@ -2,6 +2,28 @@
   "entries": [
     {
       "tab": "news",
+      "tag": "HEXHAKI / HALLOWEEN / VISUALS",
+      "tagColor": "#FF9E42",
+      "tagStyle": "gradient:#FF7B1D #FFC970 #A948CC #FF7B1D",
+      "tagBackgroundStyle": "gradient:#25152D #43231F #35184E #25152D",
+      "title": "Haki shoulder fix and animated Halloween tooltip panel",
+      "date": "2026-10-23",
+      "bannerTitle": "HAKI SHOULDER FIX + HALLOWEEN TOOLTIP PANEL",
+      "summary": "User confirmed removal of Haki shoulder-pad artifacts. Updated crouch-pose coating to arm-local geometry (testing pending) and moved the October orange glow/gradient and falling sprites onto the tooltip panel without recoloring item names.",
+      "action": "news",
+      "actionTitle": "Read Update",
+      "actionSubtitle": "HEXHAKI / HALLOWEEN / VISUALS",
+      "details": [
+        "SHOULDER PADS — User testing confirmed removal of unwanted arm shoulder geometry; existing fix retained for JBRA and vanilla players.",
+        "SNEAKING — Replaced Haki fade clipping with posed arm-local cuboid geometry to address coating drift when crouched. Source patch; in-game validation still required.",
+        "RYUO / CONQUEROR — Preserved flowing forearm aura, advanced lightning and the working custom Haki color selector.",
+        "HALLOWEEN — October-only animated orange-to-rust hover-panel gradient with subtle breathing and falling pumpkin/maple-leaf pixel sprites.",
+        "ITEM TOOLTIP NAMES — No longer recolored or wrapped; retains vanilla names, rarity styling, existing HyperText, lore and NBT.",
+        "COMPATIBILITY — Seasonal panel visuals are entirely client-side and preserve the standard non-October hover background."
+      ]
+    },
+    {
+      "tab": "news",
       "tag": "HEXHAKI / SURVIVAL / COMPAT",
       "tagColor": "#A776FF",
       "tagStyle": "gradient:#6EDAFF #AE85FF #E68AFF #6EDAFF",
