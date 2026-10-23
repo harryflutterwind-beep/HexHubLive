@@ -1,6 +1,105 @@
 {
   "entries": [
     {
+      "tab": "news",
+      "tag": "HEXHAKI / SURVIVAL / COMPAT",
+      "tagColor": "#A776FF",
+      "tagStyle": "gradient:#6EDAFF #AE85FF #E68AFF #6EDAFF",
+      "tagBackgroundStyle": "gradient:#25152D #43231F #35184E #25152D",
+      "title": "Haki rendering and Survival compatibility review",
+      "date": "2026-10-15",
+      "bannerTitle": "HAKI RENDERING AND SURVIVAL COMPATIBILITY REVIEW",
+      "summary": "Follow-up stability work on Haki visuals and Survival, including diagnosing player render and client packet failures.",
+      "action": "news",
+      "actionTitle": "Read Update",
+      "actionSubtitle": "HEXHAKI / SURVIVAL / COMPAT",
+      "details": [
+        "HEXHAKI — Continued tuning Haki skill controls and Ryuo/Conqueror coating compatibility across vanilla, JBRA and JRMCore player models.",
+        "SURVIVAL — Follow-up roster, AI and form/render compatibility checks continued after the October 14 Frieza Saga update.",
+        "COMPATIBILITY — Investigated client ticking/memory-connection failures involving mixed JinRyuu, NPCDBC and render hook dependencies; not presented as resolved."
+      ]
+    },
+    {
+      "tab": "news",
+      "tag": "HEXHUB / WISHES / STORAGE",
+      "tagColor": "#A776FF",
+      "tagStyle": "gradient:#6EDAFF #AE85FF #E68AFF #6EDAFF",
+      "tagBackgroundStyle": "gradient:#25152D #43231F #35184E #25152D",
+      "title": "Wish and extra-storage refinements",
+      "date": "2026-10-18",
+      "bannerTitle": "WISH AND EXTRA-STORAGE REFINEMENTS",
+      "summary": "Additional wishes, storage, UI and status shelf integration improvements.",
+      "action": "news",
+      "actionTitle": "Read Update",
+      "actionSubtitle": "HEXHUB / WISHES / STORAGE",
+      "details": [
+        "DRAGON WISHES — Continued socket, weapon-strengthening and JRMC temporary-buff compatibility review.",
+        "EXTRA STORAGE — Reworked per-dragon wish progression values and checked shelf/slot visualization and GUI compatibility.",
+        "GUI — Continued HexHub controls, tooltip layouts and compatibility fixes without rewriting item data."
+      ]
+    },
+    {
+      "tab": "news",
+      "tag": "HEXHAKI / SKILLS",
+      "tagColor": "#A776FF",
+      "tagStyle": "gradient:#6EDAFF #AE85FF #E68AFF #6EDAFF",
+      "tagBackgroundStyle": "gradient:#25152D #43231F #35184E #25152D",
+      "title": "Haki skill controls and progression adjustments",
+      "date": "2026-10-21",
+      "bannerTitle": "HAKI SKILL CONTROLS AND PROGRESSION ADJUSTMENTS",
+      "summary": "Continued refining multi-hit sword skills, Ryuo unlocks and Haki coating behavior.",
+      "action": "news",
+      "actionTitle": "Read Update",
+      "actionSubtitle": "HEXHAKI / SKILLS",
+      "details": [
+        "HAKI CONTROLS — Revised advanced Haki skill activators to Right Alt + Right Ctrl + RMB.",
+        "SKILLS — Continued Sword Rush, slash combo, charge windows, AOE slam and cinematic finish behavior work.",
+        "COATING — Kept Level 1 Armament separate from the higher Ryuo/Conqueror visual presentation."
+      ]
+    },
+    {
+      "tab": "news",
+      "tag": "HEXHAKI / WISHES / HEXHUB",
+      "tagColor": "#A776FF",
+      "tagStyle": "gradient:#6EDAFF #AE85FF #E68AFF #6EDAFF",
+      "tagBackgroundStyle": "gradient:#25152D #43231F #35184E #25152D",
+      "title": "Custom Haki colors and extra-storage maintenance",
+      "date": "2026-10-22",
+      "bannerTitle": "CUSTOM HAKI COLORS AND EXTRA-STORAGE MAINTENANCE",
+      "summary": "Added selectable Haki colors while preserving previous coating paths, with additional HexHub and extra-storage adjustments.",
+      "action": "news",
+      "actionTitle": "Read Update",
+      "actionSubtitle": "HEXHAKI / WISHES / HEXHUB",
+      "details": [
+        "CUSTOM HAKI COLORS — Three Haki visual stages receive selectable colors with client color synchronization.",
+        "RENDERING — Diagnosed phantom shoulder pads appearing when Ryuo or Conqueror was selected on vanilla and JBRA players.",
+        "STORAGE — Continued the Extra Storage wish tweaks and HUD/GUI compatibility checks.",
+        "NEWS — Continued versioned JSON update work for HexHub news entries."
+      ]
+    },
+    {
+      "tab": "news",
+      "tag": "HEXHAKI / HALLOWEEN / VISUALS",
+      "tagColor": "#FF9E42",
+      "tagStyle": "gradient:#FF7B1D #FFC970 #A948CC #FF7B1D",
+      "tagBackgroundStyle": "gradient:#25152D #43231F #35184E #25152D",
+      "title": "Haki shoulder correction and Halloween tooltips",
+      "date": "2026-10-23",
+      "bannerTitle": "HAKI SHOULDER CORRECTION AND HALLOWEEN TOOLTIPS",
+      "summary": "Resolved the shoulder-pad artifacts in user testing; refined advanced aura visuals, added crouch-pose replay safeguards and October tooltip cosmetics.",
+      "action": "news",
+      "actionTitle": "Read Update",
+      "actionSubtitle": "HEXHAKI / HALLOWEEN / VISUALS",
+      "details": [
+        "SHOULDER PADS — Confirmed eliminated in user testing after restricting Haki to the real arm base geometry and safer Ryuo/Conqueror forearm coverage.",
+        "RYUO — Added layered, user-colored forearm flow and glow ribbons. Conqueror keeps stronger accents and lightning.",
+        "SNEAKING — Updated JBRA capture to snapshot its live arm and parent pivots alongside the GL matrix for deferred coating replay. Still requires in-game verification.",
+        "COLOR PICKER — Preserved the functioning player-customizable Haki color settings.",
+        "HALLOWEEN — October-only item tooltip gradient, breathing glow and floating pumpkin/maple-leaf ornaments using dedicated 1.7.10-compatible sprite textures.",
+        "TOOLTIP CONFIG — Added toggles under Visual for seasonal effects and for preserving custom rarity title styling; item NBT is never modified."
+      ]
+    },
+    {
     "tab": "news",
     "tag": "HEXHAKI / STABILITY",
     "tagColor": "#C46BFF",
