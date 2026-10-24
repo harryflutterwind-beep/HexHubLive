@@ -2,6 +2,29 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "HEXHAKI / REGISTRY SAFETY",
+  "tagColor": "#FF9B54",
+  "tagStyle": "gradient:#FF3355 #FFBD49 #53F1FF #B261FF",
+  "tagBackgroundStyle": "gradient:#110B21 #35162C #110B21",
+  "title": "Final Haki Slash + Legacy Registry Safety",
+  "date": "2026-10-24",
+  "bannerTitle": "FINAL HAKI SLASH — RAINBOW AWAKENING",
+  "summary": "Introduces a charged ultimate rainbow slash and adds an early warning guard for missing legacy registrations. In-game testing remains pending.",
+  "action": "news",
+  "actionTitle": "Read Update",
+  "actionSubtitle": "HEXHAKI / WORLD SAFETY",
+  "details": [
+    "FINAL HAKI SLASH — New Conqueror ultimate: charge using Right Alt + Right Shift, then hold the rainbow flame cloak until RMB or the automatic release timer fires.",
+    "RAINBOW VISUALS — Animated multicolor flame cloak, large forward slash wave and lightweight on-screen cinematic text. Existing Haki coat geometry is unaffected.",
+    "SACRIFICE — Expends approximately 99% of current Ki, Stamina, DBC Body and HP, followed by native JRMCore Pain for about 30 seconds.",
+    "SERVER AUTHORITY — Charge timing, cooldown, hitbox and damage are server validated. Uses main-thread queued transitions to avoid packet-thread mutations.",
+    "REGISTRY GUARD — Essential legacy item/block registrations now receive a fail-fast verification in preInit. No IDs or names are remapped, and no missing mappings are ignored.",
+    "WORLD PROTECTION — Make a manual backup before testing a world that reports 169 missing entries; do not save it after accepting mapping removal.",
+    "VALIDATION — Source-only pass; the new skill and registry guard require a Forge/JRMCore build and live testing. The failing 169-mapping jar has not been provided for binary comparison."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "HEXVISUALS / SEASONAL UI",
   "tagColor": "#F6A23B",
   "tagStyle": "gradient:#A35420 #E7A850 #A35420",
