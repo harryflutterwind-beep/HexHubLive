@@ -2,6 +2,27 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "HEXVISUALS / SEASONAL UI",
+  "tagColor": "#F6A23B",
+  "tagStyle": "gradient:#A35420 #E7A850 #A35420",
+  "tagBackgroundStyle": "gradient:#1A0D08 #342012 #1A0D08",
+  "title": "Halloween tooltip panel coverage refinement",
+  "date": "2026-10-24",
+  "bannerTitle": "VANILLA TOOLTIP GRADIENT — SUBTLE PASS",
+  "summary": "Returns to a softer orange October tooltip and broadens normal Minecraft item-hover coverage without changing item names or Haki rendering.",
+  "action": "news",
+  "actionTitle": "Read Update",
+  "actionSubtitle": "HEXVISUALS / TOOLTIP",
+  "details": [
+    "PANEL COLORS — Rolled back to a darker amber-orange gradient with a gentler breathing pulse and less prominent decorations.",
+    "VANILLA ITEM HOVERS — Hook moved to the shared Minecraft 1.7.10 GUI gradient painter and recognizes the exact vanilla tooltip background/border colors, rather than relying on a limited set of inventory screen class names.",
+    "NAMES AND LORE — Item text, rarity colors, enchantments, attributes, and HyperText formatting remain unchanged.",
+    "RENDER SAFETY — Unrelated GUI rectangles do not use the seasonal painter; the previously confirmed sneak and shoulder fixes are untouched.",
+    "VALIDATION — Source change; test on vanilla item hovers and modded inventories. Custom GUIs using nonvanilla tooltip palette colors are not automatically covered."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "HEXHAKI / VANILLA UI / RENDER FIX",
   "tagColor": "#FF922E",
   "tagStyle": "gradient:#F76816 #FFC151 #E75B21 #F76816",
