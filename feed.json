@@ -1,6 +1,28 @@
 {
   "entries": [
     {
+  "tab": "news",
+  "tag": "HEXHAKI / VANILLA UI / RENDER FIX",
+  "tagColor": "#FF922E",
+  "tagStyle": "gradient:#F76816 #FFC151 #E75B21 #F76816",
+  "tagBackgroundStyle": "gradient:#25140C #4C2416 #25140C",
+  "title": "Vanilla Halloween tooltip panel + JBRA sneaking render-pass test",
+  "date": "2026-10-24",
+  "bannerTitle": "HALLOWEEN TOOLTIP PANEL + CROUCH POSE PASS",
+  "summary": "Improves ordinary item tooltip coverage without recoloring names, and experiments with first-pass JBRA arm pose capture while crouching to prevent later bruise/outfit layers from shifting Haki. In-game result is still unverified.",
+  "action": "news",
+  "actionTitle": "Read Update",
+  "actionSubtitle": "HEXHAKI / VISUALS",
+  "details": [
+    "TOOLTIPS — Support the standard and legacy GuiScreen.drawHoveringText signatures; patch gradient calls even when their invocation differs.",
+    "HALLOWEEN — Orange animated tooltip-box fill with breathing border and falling pumpkin/maple leaf sprites, while item names and authored lore remain unchanged.",
+    "JBRA SNEAKING — Keep the first active crouched skin/body arm pose rather than a later damage/bruise-pass pose; stand pose behavior remains unchanged.",
+    "CONFIG — hakiSneakUseFirstBodyPass (visual/client) defaults to true; false reverts pose selection for comparison.",
+    "PRESERVED — Working custom Haki colors, shoulder-pad geometry exclusion, existing Ryuo and Conqueror effects.",
+    "VALIDATION — Java syntax parsed and archive integrity checked; complete Forge/JBRA build and in-game verification still required."
+  ]
+},
+    {
       "tab": "news",
       "tag": "HEXHAKI / HALLOWEEN / VISUALS",
       "tagColor": "#FF9E42",
