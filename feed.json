@@ -2,6 +2,32 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "HEXHAKI / FINAL SLASH",
+  "tagColor": "#D89CFF",
+  "tagStyle": "gradient:#160B33 #8146D7 #46DDF3 #F4CF58 #F16FAD",
+  "tagBackgroundStyle": "gradient:#0B0719 #25133D #0B0719",
+  "title": "Final Haki Slash — October 26–30 Development Recap",
+  "date": "2026-10-30",
+  "bannerTitle": "FINAL HAKI SLASH — RAINBOW REAWAKENING",
+  "summary": "October 26–30: developed and refined the sacrificial Final Haki Slash ultimate, including a charged/pocketed state, rainbow cutting wave, smoky spirit aura, custom animation, optional coating bonuses, cooldown tracking, and broader modded-entity targeting.",
+  "action": "news",
+  "actionTitle": "Read Update",
+  "actionSubtitle": "HEXHAKI / OCT 26–30 RECAP",
+  "details": [
+    "OCT 26 — SPIRIT MANTLE: Reworked the initial oversized rainbow pillars into a player-centered aura with dark spirit flames, animated color highlights, and a longer cosmetic cinematic release.",
+    "OCT 26 — RAINBOW CUT: Introduced a forward-moving crescent slash with rainbow energy layers, a brighter center, impact ripples, and visual-only destruction; reduced excessive legacy OpenGL draw calls in the first pass.",
+    "OCT 26 — RESOURCE COSTS AND HUD: Preserved the 99% current Ki, DBC Body, stamina, and health sacrifice, reduced native DBC Pain to approximately 5 seconds, and integrated Final Haki Slash into the cooldown HUD.",
+    "OCT 27 — INPUT AND UNLOCK: Removed the active Conqueror coating requirement for casting. Kept coating as an optional damage boost, with bonuses for Armament, Ryuo, or Conqueror. Strengthened manual RMB release detection while retaining automatic release when the armed timer expires.",
+    "OCT 27 — CHARGE ANIMATION: Added a dedicated charge/cast pose with a raised weapon arm, an on-screen charge state, and an enlarged rainbow spirit-blade effect while the ultimate is armed. Extended the forward slash reach, vertical scale, and cinematic ground impacts.",
+    "OCT 30 — ANIMATION LIFECYCLE: Added explicit release/cancel handling to address stuck charging poses. Repeated charging now requires releasing the activation modifiers first; server rejection and cooldown cases receive cancel handling.",
+    "OCT 30 — DAMAGE COVERAGE: Expanded forward hit detection using living-entity bounding boxes for vanilla mobs, CustomNPC-Plus NPCs, JRMCore entities, and players. Added hit-result diagnostics while respecting PvP and invulnerability rules.",
+    "OCT 30 — VISUAL ITERATION: Tested a textured spirit-flame cloak, then reverted the visual baseline to the earlier smoky mantle following feedback. Added subtle smoke/wisp accents and restored the preferred layered rainbow slash with a bright white core.",
+    "CURRENT STATE: Final Haki Slash still has a three-second charge, a pocketed READY state with RMB/manual or timed release, a 99% resource sacrifice, a five-second Pain penalty, and cooldown tracking. Damage and the cinematic hit effects remain server/client split; visual destruction does not modify terrain blocks.",
+    "KNOWN LIMITATIONS: The equipped item is not yet truly hidden/replaced by the spirit blade, the smoke effect still needs precise JBRA body alignment, and complete Forge/JBRA in-game validation of the latest visual pass remains outstanding."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "HEXHAKI / REGISTRY SAFETY",
   "tagColor": "#FF9B54",
   "tagStyle": "gradient:#FF3355 #FFBD49 #53F1FF #B261FF",
