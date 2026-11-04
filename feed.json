@@ -3,6 +3,30 @@
     {
   "tab": "news",
   "tag": "HEXHAKI / FINAL SLASH",
+  "tagColor": "#FF8DF3",
+  "tagStyle": "gradient:#12071A #51207D #52C7FF #FFE26A",
+  "tagBackgroundStyle": "gradient:#09050F #20112F #09050F",
+  "title": "Final Haki Slash: Model-Anchored Spirit Cloak",
+  "date": "2026-11-04",
+  "bannerTitle": "FINAL HAKI — FULL-BODY COATING PASS",
+  "summary": "Reworked Final Haki Slash's cloak to follow the actual player model's head, torso, arms and legs, including JBRA's pose captures. Restored rainbow slash unchanged and corrected a Java float compilation error.",
+  "action": "news",
+  "actionTitle": "Read Update",
+  "actionSubtitle": "HEXHAKI / VISUALS",
+  "details": [
+    "COMPILATION — Corrected the double-to-float hue expression in FinalHakiClientEffects.java.",
+    "BODY COATING — Extended the existing arm ModelRenderer hook to head, torso and both legs only while Final Haki Slash is charging or armed.",
+    "JBRA ALIGNMENT — Captures each visible model-part pose and matrix, then replays at the existing JBRA compositor flush without modifying the installed JRMCore/JBRA jars.",
+    "SPIRIT FLAMES — Dark, translucent body-surface coating with animated rainbow edge flames replaces the old detached world-space cloak and tall columns.",
+    "READY STATE — A rainbow spirit-blade visual is anchored to the posed right arm. The real held item is not yet hidden or swapped.",
+    "RAINBOW SLASH — Preserved the restored white-core, multi-layered rainbow release effect from the earlier preferred pass.",
+    "MECHANICS — Existing cooldown, hit detection, no mandatory Conqueror coating, 99% resource cost and 5-second DBC Pain remain unchanged.",
+    "STATUS — Java syntax validated; Forge build, JBRA fit and gameplay visuals need in-game testing."
+  ]
+},
+    {
+  "tab": "news",
+  "tag": "HEXHAKI / FINAL SLASH",
   "tagColor": "#D89CFF",
   "tagStyle": "gradient:#160B33 #8146D7 #46DDF3 #F4CF58 #F16FAD",
   "tagBackgroundStyle": "gradient:#0B0719 #25133D #0B0719",
