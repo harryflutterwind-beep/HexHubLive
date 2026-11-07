@@ -2,6 +2,30 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "HEXTEX / TOOLTIP VISUALS",
+  "tagColor": "#9EEBFF",
+  "tagStyle": "gradient:#FF6BB5 #FFA656 #FFE477 #6DF4A5 #6CD9FF #C38DFF",
+  "tagBackgroundStyle": "gradient:#140C26 #261039 #131627",
+  "title": "Off-Event Tooltips — Flowing Rainbow Border & Periodic Glow",
+  "date": "2026-11-06",
+  "bannerTitle": "RAINBOW TOOLTIPS / NON-SEASONAL MODE",
+  "summary": "When the October Halloween tooltip event is inactive, vanilla and compatible modded item tooltips retain their dark panels and original name/lore colors but gain a smoothly flowing rainbow border with a gentle glow pulse every six seconds.",
+  "action": "news",
+  "actionTitle": "Read Update",
+  "actionSubtitle": "HEXTEXT / GUI POLISH",
+  "details": [
+    "OFF-EVENT THEME — Outside October, or with octoberHalloweenTooltips disabled, the ordinary vanilla tooltip panel stays dark while its existing 1-pixel outline becomes a flowing spectral rainbow.",
+    "ANIMATED BORDER — Perimeter segments interpolate across the rainbow palette over time, with a soft, narrow halo behind the outline.",
+    "PERIODIC GLOW — A subtle wave brightens the rainbow outline briefly at intervals, then fades to the regular moving gradient. Default interval is six seconds.",
+    "CONFIG — In the visual category, nonSeasonalRainbowTooltipBorders=true enables the effect; rainbowTooltipGlowIntervalSeconds=6 adjusts the cycle from 2 to 30 seconds.",
+    "OCTOBER PRIORITY — When the October Halloween effect is enabled and active, the orange gradient and falling pumpkin/maple-leaf sprites continue to take priority unchanged.",
+    "COMPATIBILITY — The renderer uses the existing vanilla tooltip-color hook, so standard vanilla/Creative tooltips and compatible modded panels receive the effect automatically. Custom tooltips with different background colors or rendering code may not.",
+    "TEXT PRESERVATION — Item display names, rarity colors, HyperText markup and lore are not modified; no item data is changed.",
+    "VALIDATION — Isolated Java 8-compatible compilation and mock rendering-path tests passed. Full Forge/JBRA runtime testing remains pending."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "HEXHAKI / FINAL SLASH",
   "tagColor": "#FF8DF3",
   "tagStyle": "gradient:#12071A #51207D #52C7FF #FFE26A",
