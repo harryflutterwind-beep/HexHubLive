@@ -2,6 +2,31 @@
   "entries": [
     {
   "tab": "news",
+  "tag": "FINAL HAKI / RARE RACIAL WISHES",
+  "tagColor": "#FF83CF",
+  "tagStyle": "gradient:#FF428B #FFCC47 #55F7A4 #45C9FF #995BFF",
+  "tagBackgroundStyle": "gradient:#070714 #231130 #071F2A",
+  "title": "Final Haki Ultimate Damage, Rainbow Arm, Rare Racial Wishes & PTS GUI Cleanup",
+  "date": "2026-11-18",
+  "bannerTitle": "FINAL HAKI — RARE DRAGON WISHES & CLEANUP",
+  "summary": "Final Haki gains stronger stat-scaled and target-aware damage, a concentrated rainbow sword-arm glow and a READY explosion cinematic. Racial upgrades become rare menu offers with free native-skill Mind accounting. The abandoned PTS/Daily-Weekly GUI and commands are removed. Form Mastery remains unchanged.",
+  "action": "news",
+  "actionTitle": "Read Update",
+  "actionSubtitle": "HAKI / DRAGON WISHES / CLEANUP",
+  "details": [
+    "FINAL HAKI DAMAGE — Increased the weapon/stat multiplier from 12x to 42x, raised the minimum to 250,000, and set a 120,000,000 maximum. Each valid living target also gets a bounded up-to-24%-of-max-health component (max 60,000,000), whichever is greater. Normal invulnerability and PvP checks still apply.",
+    "SWORD ARM — Added additive rainbow glow streamers on the front and outer side of Final Haki’s captured right-arm model. Highlights follow the existing JBRA/vanilla limb pose and never alter normal Haki coating geometry.",
+    "READY EXPLOSION — The charged cloak transformation now emits 56 cosmetic rainbow spirit particles, expanding rainbow shockwave rings and a short radiating flare. No terrain damage is applied by the cinematic.",
+    "RACIAL WISH RARITY — The racial-level wish has a 20% appearance chance on native Shenron, 35% on Porunga and 50% on Ultimate Shenron menus, provided the race is eligible and not maxed. The native wish entry is last to avoid shifting Form Mastery indices.",
+    "FREE RACIAL SKILL — The racial wish continues to grant native skill levels directly (+1/+2/+3 per dragon) without executing a TP/Mind purchase. New persistent Mind credit offsets the incremental racial Mind requirement introduced by these free wish levels, without boosting Mind attributes or subsidizing other skills.",
+    "MIND UI SYNC — A small JRMCoreH return-value hook applies only the server-synced free racial-skill credit when computing Mind used. Credit is restored after relogin by periodic server sync. Existing TP and learned skill values are not artificially changed.",
+    "PTS CLEANUP — Removed /ptsgui and the unused Daily/Weekly GUI command, chat hooks, API, GUI, packet handlers, data-reader classes and dedicated texture. Existing persisted player NBT is left untouched.",
+    "UNTOUCHED — Form Mastery wish and reward implementation unchanged. The existing slash animation, cooldown, 1.5% Perfect Liberation, Tiger Hunt chaining, regular Haki coating and off-season tooltip palettes are preserved.",
+    "VALIDATION — Java 8 syntax parse passed; native DBC wish-index hide/restore and Mind-credit accounting passed isolated stub tests. Live Forge 1614 / JRMCore / JBRA gameplay validation is still required."
+  ]
+},
+    {
+  "tab": "news",
   "tag": "HEX WISHES / TIGER HUNT",
   "tagColor": "#73DBFF",
   "tagStyle": "gradient:#FFE66D #5CE8F4 #B780FF #FF80D9",
