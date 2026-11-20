@@ -21,6 +21,7 @@
         "COMBAT UNCHANGED — Blackhole gravity, damage-over-time, collapse hit, Ki reservation, cooldown, unlock and wish logic are unchanged. No block destruction. Other Haki and custom technique systems are untouched.",
         "VALIDATION — Java 8 syntax parse passed for five changed/new classes; full Forge/JBRA and real gameplay render confirmation still pending. Both client and server must run matching rebuilt HexColorText versions."
       ]
+  ]
     },
     {
       "tab": "news",
