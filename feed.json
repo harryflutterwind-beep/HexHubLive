@@ -20,8 +20,7 @@
         "PERFORMANCE — Culls visuals beyond 140 blocks, caps active rendered instances, caches the hue palette, and restores GL state after rendering. Reduced some old particle quantities now that meshes provide the main visual.",
         "COMBAT UNCHANGED — Blackhole gravity, damage-over-time, collapse hit, Ki reservation, cooldown, unlock and wish logic are unchanged. No block destruction. Other Haki and custom technique systems are untouched.",
         "VALIDATION — Java 8 syntax parse passed for five changed/new classes; full Forge/JBRA and real gameplay render confirmation still pending. Both client and server must run matching rebuilt HexColorText versions."
-      ]
-  ]
+        ]
     },
     {
       "tab": "news",
@@ -121,7 +120,7 @@
         "PRESERVED — Final Haki Slash, existing Haki coating, Stardust/Blackhole damage scaling and charges, Dragon Fist/Black Coffin and native DBC attacks are unchanged.",
         "VALIDATION — All 593 Java sources passed Java 8 syntax parsing; full Forge/JRMCore compilation and live server/client verification are still required."
       ]
-    },,
+    },
     {
   "tab": "news",
   "tag": "FINAL HAKI / RARE RACIAL WISHES",
