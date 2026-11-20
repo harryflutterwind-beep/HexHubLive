@@ -1,6 +1,7 @@
 {
   "entries": [
-          "tag": "CUSTOM 3D ATTACKS / BLACKHOLE",
+    {
+       "tag": "CUSTOM 3D ATTACKS / BLACKHOLE",
       "tagColor": "#8D74FF",
       "tagStyle": "gradient:#30114E #7848FF #2DCDE5 #A178FF #19102E",
       "tagBackgroundStyle": "gradient:#090716 #18113C #071821",
@@ -20,7 +21,7 @@
         "PERFORMANCE — Culls visuals beyond 140 blocks, caps active rendered instances, caches the hue palette, and restores GL state after rendering. Reduced some old particle quantities now that meshes provide the main visual.",
         "COMBAT UNCHANGED — Blackhole gravity, damage-over-time, collapse hit, Ki reservation, cooldown, unlock and wish logic are unchanged. No block destruction. Other Haki and custom technique systems are untouched.",
         "VALIDATION — Java 8 syntax parse passed for five changed/new classes; full Forge/JBRA and real gameplay render confirmation still pending. Both client and server must run matching rebuilt HexColorText versions."
-        ]
+        
   ]
     },
     {
