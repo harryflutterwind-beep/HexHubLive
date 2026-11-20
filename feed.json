@@ -563,7 +563,7 @@
       "Restored the older stable JBRA Haki coating renderer after newer experimental coating changes caused incorrect arm rendering.",
       "The restored Haki coating renderer is now treated as the compatibility baseline while newer Haki skill and Extra Storage features remain enabled."
     ]
-  },,
+  },
     {
   "tab": "news",
   "tag": "SURVIVAL / AURA / HAKI",
